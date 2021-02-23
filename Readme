@@ -1,0 +1,7 @@
+Pour l’inde, le site est : https://in.bookmyshow.com/explore/movies (choix de la ville en haut à droite, il faut récupérer toutes les langues)
+
+Pour la Corée du sud, le site est : http://cineinkorea.com/wp/?page_id=195&ckattempt=1 (certains films ont les infos en anglais d’autres avec infos en coréen)
+
+Il faut récupérer l'intégralité des cinemas avec nom, adresse, ville etc
+
++ après récupérer toutes les séances de films avec à chaque fois le nom du film, l'année, le nom du cinéma (ou à voir si on peut faire cinéma par cinéma, genre enregistrer l'url du cinéma puis aller dessus pour récup toutes les séances, ca dépend des sites) et évidemment la date avec l'heure
