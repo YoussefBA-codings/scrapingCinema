@@ -1,0 +1,2454 @@
+<!--<![endif]-->
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=EDGE">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="profile" href="https://gmpg.org/xfn/11">
+  <link rel="pingback" href="http://cinein.cafe24.com/wp/xmlrpc.php">
+  <!-- scripts for IE8 and less  -->
+  <!--[if lt IE 9]>
+    <script src="http://cinein.cafe24.com/wp/wp-content/themes/customizr/assets/front/js/libs/html5.js"></script>
+  <![endif]-->
+  <script src="https://www.googletagservices.com/activeview/js/current/osd.js?cb=%2Fr20100101"></script>
+  <script
+    src="https://partner.googleadservices.com/gampad/cookie.js?domain=cineinkorea.com&amp;callback=_gfp_s_&amp;client=ca-pub-9894067623510561"></script>
+  <script
+    src="https://pagead2.googlesyndication.com/pagead/managed/js/adsense/m202102160101/show_ads_impl_with_ama.js?bust=exp%3D31060009"
+    id="google_shimpl"></script>
+  <script language="JavaScript">
+    < !--
+
+      function show_hidden(obj) {
+        obj.value = "";
+        //obj.value = obj.defaultValue; 
+      }
+
+    function sendArea() {
+      url = 'http://cineinkorea.com/wp/?page_id=195';
+      document.areaInfo.action = url;
+      document.areaInfo.submit();
+    }
+
+    function sendArea2() {
+      code = document.areaInfo.code.value;
+      title = document.areaInfo.title.value;
+      img = document.areaInfo.img.value;
+      area = document.areaInfo.area.value;
+      movieType = document.areaInfo.movieType.value;
+      whatToShow = document.areaInfo.whatToShow.value;
+      date = document.areaInfo.date.value;
+
+      url = 'http://cineinkorea.com/wp/?page_id=474&code=' + code + '&title=' + title + '&img=' + img + '&area=' + area + '&whatToShow' + whatToShow + '&movieType=' + movieType + '&date=' + date;
+      //<!--url = 'http://cinein.cafe24.com/wp/?page_id=474';-->
+      document.areaInfo.action = url;
+      document.areaInfo.submit();
+    }
+
+    function sendLanguage(language) {
+      //lanuage = document.langInfo.language.value;
+      url = 'http://cineinkorea.com/wp/?page_id=1379&language=' + language;
+      document.langInfo.action = url;
+      document.langInfo.submit();
+    }
+
+
+    function favoriteReload() {
+      url = 'http://cineinkorea.com/wp/?page_id=738';
+      document.areaInfo.action = url;
+      document.areaInfo.submit();
+    }
+
+    function addDeleteTheater(task, id, theater_code) {
+      url = 'http://cineinkorea.com/wp/?page_id=738';
+      document.addDelete.action = url;
+      document.addDelete.task.value = task;
+      document.addDelete.id.value = id;
+      document.addDelete.theater_code.value = theater_code;
+      document.addDelete.submit();
+    }
+
+    function sendTheater(brand, theater, theater_code, area, source, group, date) {
+      url = 'http://cinein.cafe24.com/wp/?page_id=464';
+      document.theaterInfo.action = url;
+      document.theaterInfo.brand.value = brand;
+      document.theaterInfo.theater.value = theater;
+      document.theaterInfo.theater_code.value = theater_code;
+      document.theaterInfo.area.value = area;
+      document.theaterInfo.source.value = source;
+      document.theaterInfo.group.value = group;
+      document.theaterInfo.date.value = date;
+      document.theaterInfo.submit();
+    }
+
+    function sendTheaterInfoWithMovieCode(movie_code, title, brand, theater, theater_code, area, source, group, date) {
+      url = 'http://cinein.cafe24.com/wp/?page_id=464';
+      document.theaterInfo.action = url;
+      document.theaterInfo.code.value = movie_code;
+      document.theaterInfo.title.value = title;
+      document.theaterInfo.brand.value = brand;
+      document.theaterInfo.theater.value = theater;
+      document.theaterInfo.theater_code.value = theater_code;
+      document.theaterInfo.area.value = area;
+      document.theaterInfo.source.value = source;
+      document.theaterInfo.group.value = group;
+      document.theaterInfo.date.value = date;
+      document.theaterInfo.submit();
+    }
+
+    function sendMovieInfo(code, title, img, area, movieType, whatToShow, date) {
+      url = 'http://cineinkorea.com/wp/?page_id=474&code=' + code + '&title=' + title + '&img=' + img + '&area=' + area + '&whatToShow=' + whatToShow + '&movieType=' + movieType + '&date=' + date;
+      document.movieInfo.action = url;
+      document.movieInfo.code.value = code;
+      document.movieInfo.title.value = title;
+      document.movieInfo.img.value = img;
+      document.movieInfo.area.value = area;
+      document.movieInfo.movieType.value = movieType;
+      document.movieInfo.whatToShow.value = whatToShow;
+      document.movieInfo.date.value = date;
+      document.movieInfo.submit();
+    }
+
+    function sendMovieInfoGET(code, title, img, area, movieType, whatToShow, date) {
+      url = 'http://cineinkorea.com/wp/?page_id=474&code=' + code + '&title=' + title + '&img=' + img + '&area=' + area + '&whatToShow=' + whatToShow + '&movieType=' + movieType + '&date=' + date;
+      window.location.href = url;
+    }
+
+    function sendReload(date) {
+      url = 'http://cineinkorea.com/wp/?page_id=474';
+      document.reloadInfo.action = url;
+      document.reloadInfo.date.value = date;
+      document.reloadInfo.submit();
+    }
+
+    function sendTheaterDate2(date) {
+      url = 'http://cineinkorea.com/mobile/movies_wp.php';
+      document.theaterInfo.action = url;
+      document.theaterInfo.date.value = date;
+      document.theaterInfo.submit();
+    }
+
+    function sendAddress(address_ko) {
+      url = './google_simple_map.php';
+      document.mapInfo.action = url;
+      document.mapInfo.target = '_blank';
+      document.mapInfo.address_ko.value = address_ko;
+      document.mapInfo.submit();
+    }
+
+    function checkArea(area_code, brand_code) {
+
+      for (var i = 0; i < document.areaInfo.area.length; i++) {
+        if (document.areaInfo.area[i].value == area_code) {
+          document.areaInfo.area[i].selected = true;
+        }
+      } for (var i = 0; i < document.areaInfo.brand.length; i++) {
+        if (document.areaInfo.brand[i].value == brand_code) { document.areaInfo.brand[i].selected = true; }
+      }
+    } function
+      myFunction11(movieTitle, sentMovieCode, brand, theater, code, area, source, group) {
+      default_url = 'http://cineinkorea.com/mobile/movies_wp.php?'; url = default_url + 'movieTitle=' + movieTitle
+        + '&sentMovieCode=' + sentMovieCode + '&brand=' + brand + '&theater=' + theater + '&code=' + code + '&area=' + area
+        + '&source=' + source + '&group=' + group; alert(url); $('#myIframe').attr('src', url);
+    } -->
+  </script>
+
+  <link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.7.2/themes/start/jquery-ui.css" type="text/css"
+    rel="Stylesheet">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.7.2/jquery-ui.min.js"></script>
+
+  <script type="text/javascript">
+      $(document).ready(function () {
+        var $rows = $('#table tr');
+
+        $('#search').keyup(function () {
+          var val = $.trim($(this).val()).replace(/ +/g, ' ').toLowerCase();
+
+          $rows.show().filter(function () {
+            var text = $(this).text().replace(/\s+/g, ' ').toLowerCase();
+            return !~text.indexOf(val);
+          }).hide();
+        });
+        $('#tabs').tabs();
+      });
+  </script>
+  <script>(function (html) { html.className = html.className.replace(/\bno-js\b/, 'js') })(document.documentElement);</script>
+  <title>Theaters – Cine in Korea</title>
+  <link rel="dns-prefetch" href="//cinein.cafe24.com">
+  <link rel="dns-prefetch" href="//maxcdn.bootstrapcdn.com">
+  <link rel="dns-prefetch" href="//s.w.org">
+  <link rel="alternate" type="application/rss+xml" title="Cine in Korea » Feed"
+    href="http://cineinkorea.com/wp/?feed=rss2">
+  <link rel="alternate" type="application/rss+xml" title="Cine in Korea » Comments Feed"
+    href="http://cineinkorea.com/wp/?feed=comments-rss2">
+  <script type="text/javascript">
+    window._wpemojiSettings = { "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/11\/72x72\/", "ext": ".png", "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/11\/svg\/", "svgExt": ".svg", "source": { "concatemoji": "http:\/\/cinein.cafe24.com\/wp\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.9.16" } };
+    !function (a, b, c) { function d(a, b) { var c = String.fromCharCode; l.clearRect(0, 0, k.width, k.height), l.fillText(c.apply(this, a), 0, 0); var d = k.toDataURL(); l.clearRect(0, 0, k.width, k.height), l.fillText(c.apply(this, b), 0, 0); var e = k.toDataURL(); return d === e } function e(a) { var b; if (!l || !l.fillText) return !1; switch (l.textBaseline = "top", l.font = "600 32px Arial", a) { case "flag": return !(b = d([55356, 56826, 55356, 56819], [55356, 56826, 8203, 55356, 56819])) && (b = d([55356, 57332, 56128, 56423, 56128, 56418, 56128, 56421, 56128, 56430, 56128, 56423, 56128, 56447], [55356, 57332, 8203, 56128, 56423, 8203, 56128, 56418, 8203, 56128, 56421, 8203, 56128, 56430, 8203, 56128, 56423, 8203, 56128, 56447]), !b); case "emoji": return b = d([55358, 56760, 9792, 65039], [55358, 56760, 8203, 9792, 65039]), !b }return !1 } function f(a) { var c = b.createElement("script"); c.src = a, c.defer = c.type = "text/javascript", b.getElementsByTagName("head")[0].appendChild(c) } var g, h, i, j, k = b.createElement("canvas"), l = k.getContext && k.getContext("2d"); for (j = Array("flag", "emoji"), c.supports = { everything: !0, everythingExceptFlag: !0 }, i = 0; i < j.length; i++)c.supports[j[i]] = e(j[i]), c.supports.everything = c.supports.everything && c.supports[j[i]], "flag" !== j[i] && (c.supports.everythingExceptFlag = c.supports.everythingExceptFlag && c.supports[j[i]]); c.supports.everythingExceptFlag = c.supports.everythingExceptFlag && !c.supports.flag, c.DOMReady = !1, c.readyCallback = function () { c.DOMReady = !0 }, c.supports.everything || (h = function () { c.readyCallback() }, b.addEventListener ? (b.addEventListener("DOMContentLoaded", h, !1), a.addEventListener("load", h, !1)) : (a.attachEvent("onload", h), b.attachEvent("onreadystatechange", function () { "complete" === b.readyState && c.readyCallback() })), g = c.source || {}, g.concatemoji ? f(g.concatemoji) : g.wpemoji && g.twemoji && (f(g.twemoji), f(g.wpemoji))) }(window, document, window._wpemojiSettings);
+  </script>
+  <script src="http://cinein.cafe24.com/wp/wp-includes/js/wp-emoji-release.min.js?ver=4.9.16" type="text/javascript"
+    defer=""></script>
+  <!-- managing ads with Advanced Ads – https://wpadvancedads.com/ -->
+  <script>
+    advanced_ads_ready = function () { var fns = [], listener, doc = typeof document === "object" && document, hack = doc && doc.documentElement.doScroll, domContentLoaded = "DOMContentLoaded", loaded = doc && (hack ? /^loaded|^c/ : /^loaded|^i|^c/).test(doc.readyState); if (!loaded && doc) { listener = function () { doc.removeEventListener(domContentLoaded, listener); window.removeEventListener("load", listener); loaded = 1; while (listener = fns.shift()) listener() }; doc.addEventListener(domContentLoaded, listener); window.addEventListener("load", listener) } return function (fn) { loaded ? setTimeout(fn, 0) : fns.push(fn) } }();
+  </script>
+  <style type="text/css">
+    img.wp-smiley,
+    img.emoji {
+      display: inline !important;
+      border: none !important;
+      box-shadow: none !important;
+      height: 1em !important;
+      width: 1em !important;
+      margin: 0 .07em !important;
+      vertical-align: -0.1em !important;
+      background: none !important;
+      padding: 0 !important;
+    }
+  </style>
+  <link rel="stylesheet" id="wp-notification-bars-css"
+    href="http://cinein.cafe24.com/wp/wp-content/plugins/wp-notification-bars/public/css/wp-notification-bars-public.css?ver=1.0.5"
+    type="text/css" media="all">
+  <link rel="stylesheet" id="sb_instagram_styles-css"
+    href="http://cinein.cafe24.com/wp/wp-content/plugins/instagram-feed/css/sb-instagram-2-2.min.css?ver=2.4.6"
+    type="text/css" media="all">
+  <link rel="stylesheet" id="megamenu-wp-css"
+    href="http://cinein.cafe24.com/wp/wp-content/plugins/easymega/style.css?ver=4.9.16" type="text/css" media="all">
+  <style id="megamenu-wp-inline-css" type="text/css">
+    .megamenu-wp-desktop #megamenu-wp-page .megamenu-wp .mega-item .mega-content li.mega-content-li {
+      margin-top: 0px;
+    }
+  </style>
+  <link rel="stylesheet" id="fontawesome-css-css"
+    href="http://cinein.cafe24.com/wp/wp-content/plugins/accesspress-social-counter/css/font-awesome.min.css?ver=1.7.7"
+    type="text/css" media="all">
+  <link rel="stylesheet" id="apsc-frontend-css-css"
+    href="http://cinein.cafe24.com/wp/wp-content/plugins/accesspress-social-counter/css/frontend.css?ver=1.7.7"
+    type="text/css" media="all">
+  <link rel="stylesheet" id="aps-animate-css-css"
+    href="http://cinein.cafe24.com/wp/wp-content/plugins/accesspress-social-icons/css/animate.css?ver=1.7.2"
+    type="text/css" media="all">
+  <link rel="stylesheet" id="aps-frontend-css-css"
+    href="http://cinein.cafe24.com/wp/wp-content/plugins/accesspress-social-icons/css/frontend.css?ver=1.7.2"
+    type="text/css" media="all">
+  <link rel="stylesheet" id="cfblbcss-css"
+    href="http://cinein.cafe24.com/wp/wp-content/plugins/cardoza-facebook-like-box/cardozafacebook.css?ver=4.9.16"
+    type="text/css" media="all">
+  <link rel="stylesheet" id="cff-css"
+    href="http://cinein.cafe24.com/wp/wp-content/plugins/custom-facebook-feed/css/cff-style.css?ver=2.16.1"
+    type="text/css" media="all">
+  <link rel="stylesheet" id="sb-font-awesome-css"
+    href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css?ver=4.9.16" type="text/css"
+    media="all">
+  <link rel="stylesheet" id="mp-frontend-css-css"
+    href="http://cinein.cafe24.com/wp/wp-content/plugins/shortcode-imdb/includes/css/style.css?v=4.5&amp;ver=4.9.16"
+    type="text/css" media="all">
+  <link rel="stylesheet" id="user-registration-general-css"
+    href="http://cinein.cafe24.com/wp/wp-content/plugins/user-registration/assets/css/user-registration.css?ver=1.5.6"
+    type="text/css" media="all">
+  <link rel="stylesheet" id="user-registration-smallscreen-css"
+    href="http://cinein.cafe24.com/wp/wp-content/plugins/user-registration/assets/css/user-registration-smallscreen.css?ver=1.5.6"
+    type="text/css" media="only screen and (max-width: 768px)">
+  <link rel="stylesheet" id="user-registration-my-account-layout-css"
+    href="http://cinein.cafe24.com/wp/wp-content/plugins/user-registration/assets/css/my-account-layout.css?ver=1.5.6"
+    type="text/css" media="all">
+  <link rel="stylesheet" id="dashicons-css"
+    href="http://cinein.cafe24.com/wp/wp-includes/css/dashicons.min.css?ver=4.9.16" type="text/css" media="all">
+  <link rel="stylesheet" id="customizr-main-css"
+    href="http://cinein.cafe24.com/wp/wp-content/themes/customizr/assets/front/css/style.css?ver=4.3.1" type="text/css"
+    media="all">
+  <style id="customizr-main-inline-css" type="text/css">
+    ::-moz-selection {
+      background-color: #260000
+    }
+
+    ::selection {
+      background-color: #260000
+    }
+
+    a,
+    .btn-skin:active,
+    .btn-skin:focus,
+    .btn-skin:hover,
+    .btn-skin.inverted,
+    .grid-container__classic .post-type__icon,
+    .post-type__icon:hover .icn-format,
+    .grid-container__classic .post-type__icon:hover .icn-format,
+    [class*='grid-container__'] .entry-title a.czr-title:hover,
+    input[type=checkbox]:checked::before {
+      color: #260000
+    }
+
+    .czr-css-loader>div,
+    .btn-skin,
+    .btn-skin:active,
+    .btn-skin:focus,
+    .btn-skin:hover,
+    .btn-skin-h-dark,
+    .btn-skin-h-dark.inverted:active,
+    .btn-skin-h-dark.inverted:focus,
+    .btn-skin-h-dark.inverted:hover {
+      border-color: #260000
+    }
+
+    .tc-header.border-top {
+      border-top-color: #260000
+    }
+
+    [class*='grid-container__'] .entry-title a:hover::after,
+    .grid-container__classic .post-type__icon,
+    .btn-skin,
+    .btn-skin.inverted:active,
+    .btn-skin.inverted:focus,
+    .btn-skin.inverted:hover,
+    .btn-skin-h-dark,
+    .btn-skin-h-dark.inverted:active,
+    .btn-skin-h-dark.inverted:focus,
+    .btn-skin-h-dark.inverted:hover,
+    .sidebar .widget-title::after,
+    input[type=radio]:checked::before {
+      background-color: #260000
+    }
+
+    .btn-skin-light:active,
+    .btn-skin-light:focus,
+    .btn-skin-light:hover,
+    .btn-skin-light.inverted {
+      color: #730000
+    }
+
+    input:not([type='submit']):not([type='button']):not([type='number']):not([type='checkbox']):not([type='radio']):focus,
+    textarea:focus,
+    .btn-skin-light,
+    .btn-skin-light.inverted,
+    .btn-skin-light:active,
+    .btn-skin-light:focus,
+    .btn-skin-light:hover,
+    .btn-skin-light.inverted:active,
+    .btn-skin-light.inverted:focus,
+    .btn-skin-light.inverted:hover {
+      border-color: #730000
+    }
+
+    .btn-skin-light,
+    .btn-skin-light.inverted:active,
+    .btn-skin-light.inverted:focus,
+    .btn-skin-light.inverted:hover {
+      background-color: #730000
+    }
+
+    .btn-skin-lightest:active,
+    .btn-skin-lightest:focus,
+    .btn-skin-lightest:hover,
+    .btn-skin-lightest.inverted {
+      color: #8c0000
+    }
+
+    .btn-skin-lightest,
+    .btn-skin-lightest.inverted,
+    .btn-skin-lightest:active,
+    .btn-skin-lightest:focus,
+    .btn-skin-lightest:hover,
+    .btn-skin-lightest.inverted:active,
+    .btn-skin-lightest.inverted:focus,
+    .btn-skin-lightest.inverted:hover {
+      border-color: #8c0000
+    }
+
+    .btn-skin-lightest,
+    .btn-skin-lightest.inverted:active,
+    .btn-skin-lightest.inverted:focus,
+    .btn-skin-lightest.inverted:hover {
+      background-color: #8c0000
+    }
+
+    .pagination,
+    a:hover,
+    a:focus,
+    a:active,
+    .btn-skin-dark:active,
+    .btn-skin-dark:focus,
+    .btn-skin-dark:hover,
+    .btn-skin-dark.inverted,
+    .btn-skin-dark-oh:active,
+    .btn-skin-dark-oh:focus,
+    .btn-skin-dark-oh:hover,
+    .post-info a:not(.btn):hover,
+    .grid-container__classic .post-type__icon .icn-format,
+    [class*='grid-container__'] .hover .entry-title a,
+    .widget-area a:not(.btn):hover,
+    a.czr-format-link:hover,
+    .format-link.hover a.czr-format-link,
+    button[type=submit]:hover,
+    button[type=submit]:active,
+    button[type=submit]:focus,
+    input[type=submit]:hover,
+    input[type=submit]:active,
+    input[type=submit]:focus,
+    .tabs .nav-link:hover,
+    .tabs .nav-link.active,
+    .tabs .nav-link.active:hover,
+    .tabs .nav-link.active:focus {
+      color: #000000
+    }
+
+    .grid-container__classic.tc-grid-border .grid__item,
+    .btn-skin-dark,
+    .btn-skin-dark.inverted,
+    button[type=submit],
+    input[type=submit],
+    .btn-skin-dark:active,
+    .btn-skin-dark:focus,
+    .btn-skin-dark:hover,
+    .btn-skin-dark.inverted:active,
+    .btn-skin-dark.inverted:focus,
+    .btn-skin-dark.inverted:hover,
+    .btn-skin-h-dark:active,
+    .btn-skin-h-dark:focus,
+    .btn-skin-h-dark:hover,
+    .btn-skin-h-dark.inverted,
+    .btn-skin-h-dark.inverted,
+    .btn-skin-h-dark.inverted,
+    .btn-skin-dark-oh:active,
+    .btn-skin-dark-oh:focus,
+    .btn-skin-dark-oh:hover,
+    .btn-skin-dark-oh.inverted:active,
+    .btn-skin-dark-oh.inverted:focus,
+    .btn-skin-dark-oh.inverted:hover,
+    button[type=submit]:hover,
+    button[type=submit]:active,
+    button[type=submit]:focus,
+    input[type=submit]:hover,
+    input[type=submit]:active,
+    input[type=submit]:focus {
+      border-color: #000000
+    }
+
+    .btn-skin-dark,
+    .btn-skin-dark.inverted:active,
+    .btn-skin-dark.inverted:focus,
+    .btn-skin-dark.inverted:hover,
+    .btn-skin-h-dark:active,
+    .btn-skin-h-dark:focus,
+    .btn-skin-h-dark:hover,
+    .btn-skin-h-dark.inverted,
+    .btn-skin-h-dark.inverted,
+    .btn-skin-h-dark.inverted,
+    .btn-skin-dark-oh.inverted:active,
+    .btn-skin-dark-oh.inverted:focus,
+    .btn-skin-dark-oh.inverted:hover,
+    .grid-container__classic .post-type__icon:hover,
+    button[type=submit],
+    input[type=submit],
+    .czr-link-hover-underline .widgets-list-layout-links a:not(.btn)::before,
+    .czr-link-hover-underline .widget_archive a:not(.btn)::before,
+    .czr-link-hover-underline .widget_nav_menu a:not(.btn)::before,
+    .czr-link-hover-underline .widget_rss ul a:not(.btn)::before,
+    .czr-link-hover-underline .widget_recent_entries a:not(.btn)::before,
+    .czr-link-hover-underline .widget_categories a:not(.btn)::before,
+    .czr-link-hover-underline .widget_meta a:not(.btn)::before,
+    .czr-link-hover-underline .widget_recent_comments a:not(.btn)::before,
+    .czr-link-hover-underline .widget_pages a:not(.btn)::before,
+    .czr-link-hover-underline .widget_calendar a:not(.btn)::before,
+    [class*='grid-container__'] .hover .entry-title a::after,
+    a.czr-format-link::before,
+    .comment-author a::before,
+    .comment-link::before,
+    .tabs .nav-link.active::before {
+      background-color: #000000
+    }
+
+    .btn-skin-dark-shaded:active,
+    .btn-skin-dark-shaded:focus,
+    .btn-skin-dark-shaded:hover,
+    .btn-skin-dark-shaded.inverted {
+      background-color: rgba(0, 0, 0, 0.2)
+    }
+
+    .btn-skin-dark-shaded,
+    .btn-skin-dark-shaded.inverted:active,
+    .btn-skin-dark-shaded.inverted:focus,
+    .btn-skin-dark-shaded.inverted:hover {
+      background-color: rgba(0, 0, 0, 0.8)
+    }
+
+    #czr-push-footer {
+      display: none;
+      visibility: hidden;
+    }
+
+    .czr-sticky-footer #czr-push-footer.sticky-footer-enabled {
+      display: block;
+    }
+  </style>
+  <link rel="stylesheet" id="customizr-ms-respond-css"
+    href="http://cinein.cafe24.com/wp/wp-content/themes/customizr/assets/front/css/style-modular-scale.css?ver=4.3.1"
+    type="text/css" media="all">
+  <link rel="stylesheet" id="tablepress-default-css"
+    href="http://cinein.cafe24.com/wp/wp-content/plugins/tablepress/css/default.min.css?ver=1.9.1" type="text/css"
+    media="all">
+  <link rel="stylesheet" id="wppb_stylesheet-css"
+    href="http://cinein.cafe24.com/wp/wp-content/plugins/profile-builder/assets/css/style-front-end.css?ver=2.9.4"
+    type="text/css" media="all">
+  <script type="text/javascript" src="http://cinein.cafe24.com/wp/wp-includes/js/jquery/jquery.js?ver=1.12.4"></script>
+  <script type="text/javascript"
+    src="http://cinein.cafe24.com/wp/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1"></script>
+  <script type="text/javascript"
+    src="http://cinein.cafe24.com/wp/wp-content/plugins/accesspress-social-icons/js/frontend.js?ver=1.7.2"></script>
+  <script type="text/javascript">
+    /* <![CDATA[ */
+    var ai_front = { "insertion_before": "BEFORE", "insertion_after": "AFTER", "insertion_prepend": "PREPEND CONTENT", "insertion_append": "APPEND CONTENT", "insertion_replace_content": "REPLACE CONTENT", "insertion_replace_element": "REPLACE ELEMENT", "cancel": "Cancel", "use": "Use", "add": "Add", "parent": "Parent", "cancel_element_selection": "Cancel element selection", "select_parent_element": "Select parent element", "css_selector": "CSS selector", "use_current_selector": "Use current selector", "element": "ELEMENT", "path": "PATH", "selector": "SELECTOR", "visible": "VISIBLE", "hidden": "HIDDEN" };
+/* ]]> */
+  </script>
+  <script type="text/javascript"
+    src="http://cinein.cafe24.com/wp/wp-content/plugins/ad-inserter/includes/js/ai-jquery.js?ver=4.9.16+2.4.11"></script>
+  <script type="text/javascript"
+    src="http://cinein.cafe24.com/wp/wp-content/plugins/cardoza-facebook-like-box/cardozafacebook.js?ver=4.9.16"></script>
+  <script type="text/javascript"
+    src="http://cinein.cafe24.com/wp/wp-content/plugins/wp-notification-bars/public/js/wp-notification-bars-public.js?ver=1.0.5"></script>
+  <script type="text/javascript"
+    src="http://cinein.cafe24.com/wp/wp-content/themes/customizr/assets/front/js/libs/modernizr.min.js?ver=4.3.1"></script>
+  <script type="text/javascript" src="http://cinein.cafe24.com/wp/wp-includes/js/underscore.min.js?ver=1.8.3"></script>
+  <script type="text/javascript">
+    /* <![CDATA[ */
+    var CZRParams = { "assetsPath": "http:\/\/cinein.cafe24.com\/wp\/wp-content\/themes\/customizr\/assets\/front\/", "mainScriptUrl": "http:\/\/cinein.cafe24.com\/wp\/wp-content\/themes\/customizr\/assets\/front\/js\/tc-scripts.min.js?4.3.1", "deferFontAwesome": "1", "fontAwesomeUrl": "http:\/\/cinein.cafe24.com\/wp\/wp-content\/themes\/customizr\/assets\/shared\/fonts\/fa\/css\/fontawesome-all.min.css?4.3.1", "_disabled": [], "centerSliderImg": "", "isLightBoxEnabled": "1", "SmoothScroll": { "Enabled": false, "Options": { "touchpadSupport": false } }, "isAnchorScrollEnabled": "", "anchorSmoothScrollExclude": { "simple": ["[class*=edd]", ".carousel-control", "[data-toggle=\"modal\"]", "[data-toggle=\"dropdown\"]", "[data-toggle=\"czr-dropdown\"]", "[data-toggle=\"tooltip\"]", "[data-toggle=\"popover\"]", "[data-toggle=\"collapse\"]", "[data-toggle=\"czr-collapse\"]", "[data-toggle=\"tab\"]", "[data-toggle=\"pill\"]", "[data-toggle=\"czr-pill\"]", "[class*=upme]", "[class*=um-]"], "deep": { "classes": [], "ids": [] } }, "timerOnScrollAllBrowsers": "1", "centerAllImg": "1", "HasComments": "", "LoadModernizr": "1", "stickyHeader": "", "extLinksStyle": "", "extLinksTargetExt": "", "extLinksSkipSelectors": { "classes": ["btn", "button"], "ids": [] }, "dropcapEnabled": "", "dropcapWhere": { "post": "", "page": "" }, "dropcapMinWords": "", "dropcapSkipSelectors": { "tags": ["IMG", "IFRAME", "H1", "H2", "H3", "H4", "H5", "H6", "BLOCKQUOTE", "UL", "OL"], "classes": ["btn"], "id": [] }, "imgSmartLoadEnabled": "", "imgSmartLoadOpts": { "parentSelectors": ["[class*=grid-container], .article-container", ".__before_main_wrapper", ".widget-front", ".post-related-articles", ".tc-singular-thumbnail-wrapper"], "opts": { "excludeImg": [".tc-holder-img"] } }, "imgSmartLoadsForSliders": "", "pluginCompats": [], "isWPMobile": "", "menuStickyUserSettings": { "desktop": "stick_up", "mobile": "stick_up" }, "adminAjaxUrl": "http:\/\/cinein.cafe24.com\/wp\/wp-admin\/admin-ajax.php", "ajaxUrl": "http:\/\/cineinkorea.com\/wp\/?czrajax=1", "frontNonce": { "id": "CZRFrontNonce", "handle": "f32bbf7522" }, "isDevMode": "", "isModernStyle": "1", "i18n": { "Permanently dismiss": "Permanently dismiss" }, "frontNotifications": { "welcome": { "enabled": false, "content": "", "dismissAction": "dismiss_welcome_note_front" } }, "preloadGfonts": "1", "googleFonts": "Source+Sans+Pro" };
+/* ]]> */
+  </script>
+  <script type="text/javascript"
+    src="http://cinein.cafe24.com/wp/wp-content/themes/customizr/assets/front/js/tc-scripts.min.js?ver=4.3.1"
+    defer=""></script>
+  <script type="text/javascript"
+    src="http://cinein.cafe24.com/wp/wp-content/plugins/advanced-iframe/js/ai.js?ver=699306"></script>
+  <link rel="https://api.w.org/" href="http://cineinkorea.com/wp/index.php?rest_route=/">
+  <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://cinein.cafe24.com/wp/xmlrpc.php?rsd">
+  <link rel="wlwmanifest" type="application/wlwmanifest+xml"
+    href="http://cinein.cafe24.com/wp/wp-includes/wlwmanifest.xml">
+  <meta name="generator" content="WordPress 4.9.16">
+  <link rel="canonical" href="http://cineinkorea.com/wp/?page_id=195">
+  <link rel="shortlink" href="http://cineinkorea.com/wp/?p=195">
+  <link rel="alternate" type="application/json+oembed"
+    href="http://cineinkorea.com/wp/index.php?rest_route=%2Foembed%2F1.0%2Fembed&amp;url=http%3A%2F%2Fcineinkorea.com%2Fwp%2F%3Fpage_id%3D195">
+  <link rel="alternate" type="text/xml+oembed"
+    href="http://cineinkorea.com/wp/index.php?rest_route=%2Foembed%2F1.0%2Fembed&amp;url=http%3A%2F%2Fcineinkorea.com%2Fwp%2F%3Fpage_id%3D195&amp;format=xml">
+  <style type="text/css" id="simple-css-output">
+    #testimonial {
+      margin-bottom: 0px;
+    }
+
+    #blog {
+      margin-bottom: 0px;
+    }
+
+    p {
+      padding: 0px;
+      margin: 5px;
+    }
+
+    span {
+      padding: 0px;
+      margin: 0px;
+      line-height: 0.8em;
+    }
+
+    br {
+      padding: 0px;
+      margin: 0px;
+    }
+
+    .poster {
+      max-width: 110px;
+    }
+  </style>
+  <style type="text/css" id="wp-custom-css">
+
+
+
+  </style>
+  <meta http-equiv="origin-trial"
+    content="A9ZgbRtm4pU3oZiuNzOsKcC8ppFSZdcjP2qYcdQrFKVzkmiWH1kdYY1Mi9x7G8+PS8HV9Ha9Cz0gaMdKsiVZIgMAAAB7eyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiVHJ1c3RUb2tlbnMiLCJleHBpcnkiOjE2MjYyMjA3OTksImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9">
+  <meta http-equiv="origin-trial"
+    content="A3HucHUo1oW9s+9kIKz8mLkbcmdaj5lxt3eiIMp1Nh49dkkBlg1Fhg4Fd/r0vL69mRRA36YutI9P/lJUfL8csQoAAACFeyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiQ29udmVyc2lvbk1lYXN1cmVtZW50IiwiZXhwaXJ5IjoxNjI2MjIwNzk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ==">
+  <link rel="preload" href="https://adservice.google.fr/adsid/integrator.js?domain=cineinkorea.com" as="script">
+  <script type="text/javascript" src="https://adservice.google.fr/adsid/integrator.js?domain=cineinkorea.com"></script>
+  <link rel="preload" href="https://adservice.google.com/adsid/integrator.js?domain=cineinkorea.com" as="script">
+  <script type="text/javascript" src="https://adservice.google.com/adsid/integrator.js?domain=cineinkorea.com"></script>
+</head>
+
+<body
+  class="page-template-default page page-id-195 wp-custom-logo czr-link-hover-underline header-skin-dark footer-skin-dark czr-no-sidebar czr-full-layout czr-sticky-footer"
+  onload="javascript:check('all', 'all')">
+  <a class="screen-reader-text skip-link" href="#content">Skip to content</a>
+
+
+  <div id="tc-page-wrap" class="">
+
+    <header class="tpnav-header__header tc-header sl-logo_left sticky-transparent czr-submenu-fade czr-submenu-move">
+      <div class="primary-navbar__wrapper d-none d-lg-block has-horizontal-menu has-branding-aside desktop-sticky">
+        <div class="container">
+          <div class="row align-items-center flex-row primary-navbar__row">
+            <div class="branding__container col col-auto">
+              <div class="branding align-items-center flex-column ">
+                <div class="branding-row d-flex align-self-start flex-row align-items-center">
+                  <div class="navbar-brand col-auto ">
+                    <a class="navbar-brand-sitelogo" href="http://cineinkorea.com/wp/"
+                      aria-label="Cine in Korea | movie site for foreign expats in Korea">
+                      <img
+                        src="http://cinein.cafe24.com/wp/wp-content/uploads/2019/02/240_F_153911882_0TL4rN6j9tnIYkcRDinan8dXqFljeZZU-e1549973083106.jpg"
+                        alt="Back Home" class="" width="150" height="65" data-no-retina=""> </a>
+                  </div>
+                  <div class="branding-aside col-auto flex-column d-flex">
+                    <span class="navbar-brand col-auto ">
+                      <a class="navbar-brand-sitename  czr-underline" href="http://cineinkorea.com/wp/">
+                        <span>Cine in Korea</span>
+                      </a>
+                    </span>
+                    <span class="header-tagline ">
+                      movie site for foreign expats in Korea</span>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="primary-nav__container justify-content-lg-around col col-lg-auto flex-lg-column">
+              <div class="primary-nav__wrapper flex-lg-row align-items-center justify-content-end">
+                <nav class="primary-nav__nav col" id="primary-nav">
+                  <div class="nav__menu-wrapper primary-nav__menu-wrapper justify-content-end czr-open-on-hover">
+                    <ul id="main-menu" class="megamenu-wp primary-nav__menu regular-nav nav__menu nav">
+                      <li id="menu-item-1864"
+                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children czr-dropdown menu-item-1864">
+                        <a data-toggle="czr-dropdown" aria-haspopup="true" aria-expanded="false"
+                          href="http://cineinkorea.com/wp/?page_id=1767" class="nav__link"><span
+                            class="nav__title">Movies</span><span class="caret__dropdown-toggler"><i
+                              class="icn-down-small"></i></span></a>
+                        <ul class="dropdown-menu czr-dropdown-menu">
+                          <li id="menu-item-193"
+                            class="menu-item menu-item-type-post_type menu-item-object-page dropdown-item menu-item-193">
+                            <a href="http://cineinkorea.com/wp/?page_id=133" class="nav__link"><span
+                                class="nav__title">Movies Today</span></a></li>
+                          <li id="menu-item-284"
+                            class="menu-item menu-item-type-post_type menu-item-object-page dropdown-item menu-item-284">
+                            <a href="http://cineinkorea.com/wp/?page_id=277" class="nav__link"><span
+                                class="nav__title">Coming Soon [Available]</span></a></li>
+                          <li id="menu-item-1380"
+                            class="menu-item menu-item-type-post_type menu-item-object-page dropdown-item menu-item-1380">
+                            <a href="http://cineinkorea.com/wp/?page_id=1379" class="nav__link"><span
+                                class="nav__title">by Main Languages</span></a></li>
+                          <li id="menu-item-304"
+                            class="menu-item menu-item-type-post_type menu-item-object-page dropdown-item menu-item-304">
+                            <a href="http://cineinkorea.com/wp/?page_id=301" class="nav__link"><span
+                                class="nav__title">Korean movie with subtitle</span></a></li>
+                          <li id="menu-item-283"
+                            class="menu-item menu-item-type-post_type menu-item-object-page dropdown-item menu-item-283">
+                            <a href="http://cineinkorea.com/wp/?page_id=280" class="nav__link"><span
+                                class="nav__title">Coming [not opened yet]</span></a></li>
+                        </ul>
+                      </li>
+                      <li id="menu-item-198"
+                        class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-195 current_page_item current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children czr-dropdown current-active menu-item-198">
+                        <a data-toggle="czr-dropdown" aria-haspopup="true" aria-expanded="false"
+                          href="http://cineinkorea.com/wp/?page_id=195" class="nav__link"><span
+                            class="nav__title">Theaters</span><span class="caret__dropdown-toggler"><i
+                              class="icn-down-small"></i></span></a>
+                        <ul class="dropdown-menu czr-dropdown-menu">
+                          <li id="menu-item-1556"
+                            class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-195 current_page_item dropdown-item current-active menu-item-1556">
+                            <a href="http://cineinkorea.com/wp/?page_id=195" class="nav__link"><span
+                                class="nav__title">all the theaters</span></a></li>
+                          <li id="menu-item-740"
+                            class="menu-item menu-item-type-post_type menu-item-object-page dropdown-item menu-item-740">
+                            <a href="http://cineinkorea.com/wp/?page_id=738" class="nav__link"><span
+                                class="nav__title">My Favorite theaters</span></a></li>
+                        </ul>
+                      </li>
+                      <li id="menu-item-1110"
+                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children czr-dropdown menu-item-1110">
+                        <a data-toggle="czr-dropdown" aria-haspopup="true" aria-expanded="false"
+                          href="http://cineinkorea.com/wp/?page_id=1109" class="nav__link"><span
+                            class="nav__title">Info</span><span class="caret__dropdown-toggler"><i
+                              class="icn-down-small"></i></span></a>
+                        <ul class="dropdown-menu czr-dropdown-menu">
+                          <li id="menu-item-1112"
+                            class="menu-item menu-item-type-taxonomy menu-item-object-category dropdown-item menu-item-1112">
+                            <a href="http://cineinkorea.com/wp/?cat=10" class="nav__link"><span
+                                class="nav__title">Special Screen</span></a></li>
+                          <li id="menu-item-2495"
+                            class="menu-item menu-item-type-taxonomy menu-item-object-category dropdown-item menu-item-2495">
+                            <a href="http://cineinkorea.com/wp/?cat=13" class="nav__link"><span
+                                class="nav__title">Notice</span></a></li>
+                        </ul>
+                      </li>
+                      <li id="menu-item-735"
+                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children czr-dropdown menu-item-735">
+                        <a data-toggle="czr-dropdown" aria-haspopup="true" aria-expanded="false"
+                          href="http://cineinkorea.com/wp/?page_id=713" class="nav__link"><span class="nav__title">My
+                            Account</span><span class="caret__dropdown-toggler"><i
+                              class="icn-down-small"></i></span></a>
+                        <ul class="dropdown-menu czr-dropdown-menu">
+                          <li id="menu-item-737"
+                            class="menu-item menu-item-type-post_type menu-item-object-page dropdown-item menu-item-737">
+                            <a href="http://cineinkorea.com/wp/?page_id=718" class="nav__link"><span
+                                class="nav__title">Registration</span></a></li>
+                          <li id="menu-item-741"
+                            class="menu-item menu-item-type-post_type menu-item-object-page dropdown-item menu-item-741">
+                            <a href="http://cineinkorea.com/wp/?page_id=738" class="nav__link"><span
+                                class="nav__title">My Favorite theaters</span></a></li>
+                        </ul>
+                      </li>
+                      <li id="menu-item-929"
+                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-929"><a
+                          href="http://cineinkorea.com/wp/?page_id=928" class="nav__link"><span
+                            class="nav__title">Contact us</span></a></li>
+                    </ul>
+                  </div>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="mobile-navbar__wrapper d-lg-none mobile-sticky">
+        <div class="branding__container justify-content-between align-items-center container">
+          <div class="branding flex-column">
+            <div class="branding-row d-flex align-self-start flex-row align-items-center">
+              <div class="navbar-brand col-auto ">
+                <a class="navbar-brand-sitelogo" href="http://cineinkorea.com/wp/"
+                  aria-label="Cine in Korea | movie site for foreign expats in Korea">
+                  <img
+                    src="http://cinein.cafe24.com/wp/wp-content/uploads/2019/02/240_F_153911882_0TL4rN6j9tnIYkcRDinan8dXqFljeZZU-e1549973083106.jpg"
+                    alt="Back Home" class="" width="150" height="65" data-no-retina=""> </a>
+              </div>
+              <div class="branding-aside col-auto">
+                <span class="navbar-brand col-auto ">
+                  <a class="navbar-brand-sitename  czr-underline" href="http://cineinkorea.com/wp/">
+                    <span>Cine in Korea</span>
+                  </a>
+                </span>
+              </div>
+            </div>
+            <span class="header-tagline col col-auto">
+              movie site for foreign expats in Korea</span>
+
+          </div>
+          <div class="mobile-utils__wrapper nav__utils regular-nav">
+            <ul class="nav utils row flex-row flex-nowrap">
+              <li class="hamburger-toggler__container ">
+                <button class="ham-toggler-menu czr-collapsed" data-toggle="czr-collapse"
+                  data-target="#mobile-nav"><span class="ham__toggler-span-wrapper"><span
+                      class="line line-1"></span><span class="line line-2"></span><span
+                      class="line line-3"></span></span><span class="screen-reader-text">Menu</span></button>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="mobile-nav__container ">
+          <nav class="mobile-nav__nav flex-column czr-collapse" id="mobile-nav">
+            <div class="mobile-nav__inner container">
+              <div class="nav__menu-wrapper mobile-nav__menu-wrapper">
+                <ul id="mobile-nav-menu" class="megamenu-wp mobile-nav__menu vertical-nav nav__menu flex-column nav">
+                  <li
+                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children czr-dropdown menu-item-1864">
+                    <a href="http://cineinkorea.com/wp/?page_id=1767" class="nav__link"><span
+                        class="nav__title">Movies</span></a>
+                    <ul class="dropdown-menu czr-dropdown-menu">
+                      <li class="menu-item menu-item-type-post_type menu-item-object-page dropdown-item menu-item-193">
+                        <a href="http://cineinkorea.com/wp/?page_id=133" class="nav__link"><span
+                            class="nav__title">Movies Today</span></a></li>
+                      <li class="menu-item menu-item-type-post_type menu-item-object-page dropdown-item menu-item-284">
+                        <a href="http://cineinkorea.com/wp/?page_id=277" class="nav__link"><span
+                            class="nav__title">Coming Soon [Available]</span></a></li>
+                      <li class="menu-item menu-item-type-post_type menu-item-object-page dropdown-item menu-item-1380">
+                        <a href="http://cineinkorea.com/wp/?page_id=1379" class="nav__link"><span class="nav__title">by
+                            Main Languages</span></a></li>
+                      <li class="menu-item menu-item-type-post_type menu-item-object-page dropdown-item menu-item-304">
+                        <a href="http://cineinkorea.com/wp/?page_id=301" class="nav__link"><span
+                            class="nav__title">Korean movie with subtitle</span></a></li>
+                      <li class="menu-item menu-item-type-post_type menu-item-object-page dropdown-item menu-item-283">
+                        <a href="http://cineinkorea.com/wp/?page_id=280" class="nav__link"><span
+                            class="nav__title">Coming [not opened yet]</span></a></li>
+                    </ul>
+                  </li>
+                  <li
+                    class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-195 current_page_item current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children czr-dropdown current-active menu-item-198">
+                    <a href="http://cineinkorea.com/wp/?page_id=195" class="nav__link"><span
+                        class="nav__title">Theaters</span></a>
+                    <ul class="dropdown-menu czr-dropdown-menu">
+                      <li
+                        class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-195 current_page_item dropdown-item current-active menu-item-1556">
+                        <a href="http://cineinkorea.com/wp/?page_id=195" class="nav__link"><span class="nav__title">all
+                            the theaters</span></a></li>
+                      <li class="menu-item menu-item-type-post_type menu-item-object-page dropdown-item menu-item-740">
+                        <a href="http://cineinkorea.com/wp/?page_id=738" class="nav__link"><span class="nav__title">My
+                            Favorite theaters</span></a></li>
+                    </ul>
+                  </li>
+                  <li
+                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children czr-dropdown menu-item-1110">
+                    <a href="http://cineinkorea.com/wp/?page_id=1109" class="nav__link"><span
+                        class="nav__title">Info</span></a>
+                    <ul class="dropdown-menu czr-dropdown-menu">
+                      <li
+                        class="menu-item menu-item-type-taxonomy menu-item-object-category dropdown-item menu-item-1112">
+                        <a href="http://cineinkorea.com/wp/?cat=10" class="nav__link"><span class="nav__title">Special
+                            Screen</span></a></li>
+                      <li
+                        class="menu-item menu-item-type-taxonomy menu-item-object-category dropdown-item menu-item-2495">
+                        <a href="http://cineinkorea.com/wp/?cat=13" class="nav__link"><span
+                            class="nav__title">Notice</span></a></li>
+                    </ul>
+                  </li>
+                  <li
+                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children czr-dropdown menu-item-735">
+                    <a href="http://cineinkorea.com/wp/?page_id=713" class="nav__link"><span class="nav__title">My
+                        Account</span></a>
+                    <ul class="dropdown-menu czr-dropdown-menu">
+                      <li class="menu-item menu-item-type-post_type menu-item-object-page dropdown-item menu-item-737">
+                        <a href="http://cineinkorea.com/wp/?page_id=718" class="nav__link"><span
+                            class="nav__title">Registration</span></a></li>
+                      <li class="menu-item menu-item-type-post_type menu-item-object-page dropdown-item menu-item-741">
+                        <a href="http://cineinkorea.com/wp/?page_id=738" class="nav__link"><span class="nav__title">My
+                            Favorite theaters</span></a></li>
+                    </ul>
+                  </li>
+                  <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-929"><a
+                      href="http://cineinkorea.com/wp/?page_id=928" class="nav__link"><span class="nav__title">Contact
+                        us</span></a></li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+
+
+    <div id="main-wrapper" class="section">
+
+
+
+
+      <div class="container" role="main">
+
+
+        <div class="flex-row row column-content-wrapper">
+
+
+          <div id="content" class="col-12 article-container">
+
+            <article id="page-195" class="post-195 page type-page status-publish czr-hentry">
+              <header class="entry-header ">
+                <div class="entry-header-inner">
+                  <h1 class="entry-title">Theaters</h1>
+                </div>
+              </header>
+              <div class="post-entry tc-content-inner">
+                <section class="post-content entry-content ">
+                  <div class="czr-wp-the-content">
+                    <p>
+                      <!--div>
+
+
+<form name=areaInfo method="post">
+<select name="area" onChange="javascript:sendArea()" class=area_select_box> 
+<option value="all">all regions</option>
+<option value="010101">Seoul</option>
+<option value="020205">Incheon</option>
+<option value="020201">Gyeonggi Province</option>
+<option value="030305">Daejeon</option>
+<option value="030301">Chungcheong Province</option>
+<option value="040405">Gwangju</option>
+<option value="040401">Jeolla Province</option>
+<option value="050505">Busan</option>
+<option value="050506">Daegu</option>
+<option value="050507">Ulsan</option>
+<option value="050501">Gyeongsang Province</option>
+<option value="060601">Gangwon Province</option>
+<option value="070701">Jeju Island</option>
+ </select> &nbsp;&nbsp; <select name="brand" onChange="javascript:sendArea()" class=area_select_box> 
+<option value="all">all brands</option>
+<option value="1">CGV</option>
+<option value="2">Lotte Cinema</option>
+<option value="3">Megabox</option>
+<option value="10">Other brands</option>
+ </select>
+</form>
+
+
+</div-->
+                    </p>
+                    <div style="width:100%; font-size: ; padding:0px; border: 0px solid #000">
+                      <div style="float:left; padding: 0 2px 0 0px; border-right: 1px dotted #000;"><img
+                          src="http://cinein.cdn3.cafe24.com/general/placeholder.png" width="22"></div>
+                      <div
+                        style="float:left; padding: 0 4px 0 4px; border-right: 1px dotted #000;  font-color: white; background-color:#cdcdcd;">
+                        <a
+                          href="http://cineinkorea.com/wp/?page_id=195&amp;code=&amp;title=&amp;whatToShow=&amp;date=2021-02-24&amp;img=&amp;movieType=all&amp;area=all">ALL</a>
+                      </div>
+                      <div style="float:left; padding: 0 4px 0 4px; border-right: 1px dotted #000; "><a
+                          href="http://cineinkorea.com/wp/?page_id=195&amp;code=&amp;title=&amp;whatToShow=&amp;date=2021-02-24&amp;img=&amp;movieType=all&amp;area=010101">Seoul
+                        </a></div>
+                      <div style="float:left; padding: 0 4px 0 4px; border-right: 1px dotted #000; "><a
+                          href="http://cineinkorea.com/wp/?page_id=195&amp;code=&amp;title=&amp;whatToShow=&amp;date=2021-02-24&amp;img=&amp;movieType=all&amp;area=020205">Incheon</a>
+                      </div>
+                      <div style="float:left; padding: 0 4px 0 4px; border-right: 1px dotted #000; "><a
+                          href="http://cineinkorea.com/wp/?page_id=195&amp;code=&amp;title=&amp;whatToShow=&amp;date=2021-02-24&amp;img=&amp;movieType=all&amp;area=020201">Gyeonggi
+                        </a></div>
+                      <div style="float:left; padding: 0 4px 0 4px; border-right: 1px dotted #000; "><a
+                          href="http://cineinkorea.com/wp/?page_id=195&amp;code=&amp;title=&amp;whatToShow=&amp;date=2021-02-24&amp;img=&amp;movieType=all&amp;area=030305">Daejeon</a>
+                      </div>
+                      <div style="float:left; padding: 0 4px 0 4px; border-right: 1px dotted #000; "><a
+                          href="http://cineinkorea.com/wp/?page_id=195&amp;code=&amp;title=&amp;whatToShow=&amp;date=2021-02-24&amp;img=&amp;movieType=all&amp;area=030301">Chungcheong
+                        </a></div>
+                      <div style="float:left; padding: 0 4px 0 4px; border-right: 1px dotted #000; "><a
+                          href="http://cineinkorea.com/wp/?page_id=195&amp;code=&amp;title=&amp;whatToShow=&amp;date=2021-02-24&amp;img=&amp;movieType=all&amp;area=040405">Gwangju</a>
+                      </div>
+                      <div style="float:left; padding: 0 4px 0 4px; border-right: 1px dotted #000; "><a
+                          href="http://cineinkorea.com/wp/?page_id=195&amp;code=&amp;title=&amp;whatToShow=&amp;date=2021-02-24&amp;img=&amp;movieType=all&amp;area=040401">Jeolla
+                        </a></div>
+                      <div style="float:left; padding: 0 4px 0 4px; border-right: 1px dotted #000; "><a
+                          href="http://cineinkorea.com/wp/?page_id=195&amp;code=&amp;title=&amp;whatToShow=&amp;date=2021-02-24&amp;img=&amp;movieType=all&amp;area=050505">Busan</a>
+                      </div>
+                      <div style="float:left; padding: 0 4px 0 4px; border-right: 1px dotted #000; "><a
+                          href="http://cineinkorea.com/wp/?page_id=195&amp;code=&amp;title=&amp;whatToShow=&amp;date=2021-02-24&amp;img=&amp;movieType=all&amp;area=050506">Daegu</a>
+                      </div>
+                      <div style="float:left; padding: 0 4px 0 4px; border-right: 1px dotted #000; "><a
+                          href="http://cineinkorea.com/wp/?page_id=195&amp;code=&amp;title=&amp;whatToShow=&amp;date=2021-02-24&amp;img=&amp;movieType=all&amp;area=050507">Ulsan</a>
+                      </div>
+                      <div style="float:left; padding: 0 4px 0 4px; border-right: 1px dotted #000; "><a
+                          href="http://cineinkorea.com/wp/?page_id=195&amp;code=&amp;title=&amp;whatToShow=&amp;date=2021-02-24&amp;img=&amp;movieType=all&amp;area=050501">Gyeongsang</a>
+                      </div>
+                      <div style="float:left; padding: 0 4px 0 4px; border-right: 1px dotted #000; "><a
+                          href="http://cineinkorea.com/wp/?page_id=195&amp;code=&amp;title=&amp;whatToShow=&amp;date=2021-02-24&amp;img=&amp;movieType=all&amp;area=060601">Gangwon</a>
+                      </div>
+                      <div style="float:left; padding: 0 4px 0 4px; border-right: 0px dotted #000; "><a
+                          href="http://cineinkorea.com/wp/?page_id=195&amp;code=&amp;title=&amp;whatToShow=&amp;date=2021-02-24&amp;img=&amp;movieType=all&amp;area=070701">Jeju
+                        </a></div>
+                    </div>
+                    <div style="clear:both;"></div>
+                    <div style="width:100%; font-size: ; padding:0px; border: 0px solid #000">
+                      <div style="float:left; padding: 0 2px 0 0px; border-right: 1px dotted #000;"><img
+                          src="http://cinein.cdn3.cafe24.com/movie/film2.png" width="22"></div>
+                      <div
+                        style="float:left; padding: 0 4px 0 4px; border-right: 1px dotted #000;  font-color: white; background-color:#cdcdcd;">
+                        <a
+                          href="http://cineinkorea.com/wp/?page_id=195&amp;code=&amp;title=&amp;area=all&amp;whatToShow=&amp;date=2021-02-24&amp;img=&amp;movieType=all">ALL</a>
+                      </div>
+                      <div style="float:left; padding: 0 4px 0 4px; border-right: 1px dotted #000; "><a
+                          href="http://cineinkorea.com/wp/?page_id=195&amp;code=&amp;title=&amp;area=all&amp;whatToShow=&amp;date=2021-02-24&amp;img=&amp;movieType=3D">
+                          3D </a></div>
+                      <div style="float:left; padding: 0 4px 0 4px; border-right: 1px dotted #000; "><a
+                          href="http://cineinkorea.com/wp/?page_id=195&amp;code=&amp;title=&amp;area=all&amp;whatToShow=&amp;date=2021-02-24&amp;img=&amp;movieType=4DX">
+                          4DX </a></div>
+                      <div style="float:left; padding: 0 4px 0 4px; border-right: 1px dotted #000; "><a
+                          href="http://cineinkorea.com/wp/?page_id=195&amp;code=&amp;title=&amp;area=all&amp;whatToShow=&amp;date=2021-02-24&amp;img=&amp;movieType=IMAX">
+                          IMAX </a></div>
+                      <div style="float:left; padding: 0 4px 0 4px; border-right: 0px dotted #000; "><a
+                          href="http://cineinkorea.com/wp/?page_id=195&amp;code=&amp;title=&amp;area=all&amp;whatToShow=&amp;date=2021-02-24&amp;img=&amp;movieType=GOLDCLASS">
+                          GOLDCLASS</a></div>
+                    </div>
+                    <div style="clear: both; height:5px;"></div>
+                    <p><input style="font-size: 11pt; margin:2px; padding:5px;" type="text" id="search"
+                        placeholder="Type here to search"> </p>
+                    <table onload="javascript:check('all', 'all')" id="table" cellspacing="10" border="0" width="320"
+                      style="margin-left:10px; ">
+                      <tbody>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('CGV', 'Andong', '0272', '05', 'CGV', '1', '2021-02-24')"><strong>Andong</strong>
+                              CGV</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('CGV', 'Ansan', '0211', '02', 'CGV', '1', '2021-02-24')"><strong>Ansan</strong>
+                              CGV</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('Lotte Cinema', 'Ansan', '94', '02', 'NAVER', '2', '2021-02-24')"><strong>Ansan</strong>
+                              Lotte Cinema</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('Lotte Cinema', 'Ansan Gojan', '563', '02', 'NAVER', '2', '2021-02-24')"><strong>Ansan
+                                Gojan</strong> Lotte Cinema</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('Megabox', 'Ansan Jung-ang', '560', '02', 'NAVER', '3', '2021-02-24')"><strong>Ansan
+                                Jung-ang</strong> Megabox</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('CGV', 'Anseong', '0279', '02', 'CGV', '1', '2021-02-24')"><strong>Anseong</strong>
+                              CGV</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('Lotte Cinema', 'Anseong', '476', '02', 'NAVER', '2', '2021-02-24')"><strong>Anseong</strong>
+                              Lotte Cinema</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('Megabox', 'Anseong StarField', '780', '02', 'NAVER', '3', '2021-02-24')"><strong>Anseong
+                                StarField</strong> Megabox</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('Lotte Cinema', 'Anyang (Anyang Station)', '100', '02', 'NAVER', '2', '2021-02-24')"><strong>Anyang
+                                (Anyang Station)</strong> Lotte Cinema</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('Lotte Cinema', 'Anyang ilbeon-ga', '605', '02', 'NAVER', '2', '2021-02-24')"><strong>Anyang
+                                ilbeon-ga</strong> Lotte Cinema</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('CGV', 'ApGuJeong', '0040', '01', 'CGV', '1', '2021-02-24')"><strong>ApGuJeong</strong>
+                              CGV</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('Megabox', 'ARTNINE', '456', '01', 'NAVER', '3', '2021-02-24')"><strong>ARTNINE</strong>
+                              Megabox</a>
+                          </td>…, '01', 'NAVER', '3', '2021-02-24')"><strong>Isu</strong> Megabox</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('Lotte Cinema', 'Jangan', '455', '01', 'NAVER', '2', '2021-02-24')"><strong>Jangan</strong>
+                              Lotte Cinema</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('Megabox', 'Jecheon', '417', '03', 'NAVER', '3', '2021-02-24')"><strong>Jecheon</strong>
+                              Megabox</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('CGV', 'Jeju', '0302', '07', 'CGV', '1', '2021-02-24')"><strong>Jeju</strong>
+                              CGV</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('Megabox', 'Jeju', '335', '07', 'NAVER', '3', '2021-02-24')"><strong>Jeju</strong>
+                              Megabox</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('Lotte Cinema', 'Jeju Ara', '724', '07', 'NAVER', '2', '2021-02-24')"><strong>Jeju
+                                Ara</strong> Lotte Cinema</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('CGV', 'Jeju Nohyeong', '0259', '07', 'CGV', '1', '2021-02-24')"><strong>Jeju
+                                Nohyeong</strong> CGV</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('Lotte Cinema', 'Jeju Samhwa-jigu', '715', '07', 'NAVER', '2', '2021-02-24')"><strong>Jeju
+                                Samhwa-jigu</strong> Lotte Cinema</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('Megabox', 'Jeondae(gwangju)', '202', '04', 'NAVER', '3', '2021-02-24')"><strong>Jeondae(gwangju)</strong>
+                              Megabox</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('CGV', 'Jeong-eup', '0186', '04', 'CGV', '1', '2021-02-24')"><strong>Jeong-eup</strong>
+                              CGV</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('CGV', 'Jeong-wang', '0320', '02', 'CGV', '1', '2021-02-24')"><strong>Jeong-wang</strong>
+                              CGV</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('CGV', 'JeongGwan', '0238', '05', 'CGV', '1', '2021-02-24')"><strong>JeongGwan</strong>
+                              CGV</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('Megabox', 'JeongGwan', '678', '05', 'NAVER', '3', '2021-02-24')"><strong>JeongGwan</strong>
+                              Megabox</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('Lotte Cinema', 'Jeonju (Department Store)', '208', '04', 'NAVER', '2', '2021-02-24')"><strong>Jeonju
+                                (Department Store)</strong> Lotte Cinema</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('CGV', 'Jeonju Gosa', '0213', '04', 'CGV', '1', '2021-02-24')"><strong>Jeonju
+                                Gosa</strong> CGV</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('Megabox', 'Jeonju Hyeoksin', '782', '04', 'NAVER', '3', '2021-02-24')"><strong>Jeonju
+                                Hyeoksin</strong> Megabox</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('CGV', 'Jeonju Hyoja', '0179', '04', 'CGV', '1', '2021-02-24')"><strong>Jeonju
+                                Hyoja</strong> CGV</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('Lotte Cinema', 'Jeonju Pyeonghwa', '445', '04', 'NAVER', '2', '2021-02-24')"><strong>Jeonju
+                                Pyeonghwa</strong> Lotte Cinema</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('Megabox', 'Jincheon', '594', '03', 'NAVER', '3', '2021-02-24')"><strong>Jincheon</strong>
+                              Megabox</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('Lotte Cinema', 'Jinhae', '457', '05', 'NAVER', '2', '2021-02-24')"><strong>Jinhae</strong>
+                              Lotte Cinema</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('Lotte Cinema', 'Jinjeop', '394', '02', 'NAVER', '2', '2021-02-24')"><strong>Jinjeop</strong>
+                              Lotte Cinema</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('CGV', 'Jinju Hyeoksin', '0324', '05', 'CGV', '1', '2021-02-24')"><strong>Jinju
+                                Hyeoksin</strong> CGV</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('Lotte Cinema', 'Jinju Hyeoksin(Lotte Mall)', '620', '05', 'NAVER', '2', '2021-02-24')"><strong>Jinju
+                                Hyeoksin(Lotte Mall)</strong> Lotte Cinema</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('Seoul Art Cinema', 'Jongno', '41', '01', 'NAVER', '10', '2021-02-24')"><strong>Jongno</strong>
+                              Seoul Art Cinema</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('Emu Cinema', 'Jongno', '606', '01', 'NAVER', '10', '2021-02-24')"><strong>Jongno</strong>
+                              Emu Cinema</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('Seoul Cinema', 'Jongno', '40', '01', 'NAVER', '10', '2021-02-24')"><strong>Jongno</strong>
+                              Seoul Cinema</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('Indie Space', 'Jongno', '39', '01', 'NAVER', '10', '2021-02-24')"><strong>Jongno</strong>
+                              Indie Space</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('CGV', 'Juan Station', '0027', '02', 'CGV', '1', '2021-02-24')"><strong>Juan
+                                Station</strong> CGV</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('CGV', 'JukJeon', '0055', '02', 'CGV', '1', '2021-02-24')"><strong>JukJeon</strong>
+                              CGV</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('CGV', 'Junggye', '0131', '01', 'CGV', '1', '2021-02-24')"><strong>Junggye</strong>
+                              CGV</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('Lotte Cinema', 'JungNang', '781', '01', 'NAVER', '2', '2021-02-24')"><strong>JungNang</strong>
+                              Lotte Cinema</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('Lotte Cinema', 'Juyeop', '418', '02', 'NAVER', '2', '2021-02-24')"><strong>Juyeop</strong>
+                              Lotte Cinema</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('Megabox', 'Kintex', '391', '02', 'NAVER', '3', '2021-02-24')"><strong>Kintex</strong>
+                              Megabox</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('CGV', 'Kondae ipgu', '0229', '01', 'CGV', '1', '2021-02-24')"><strong>Kondae
+                                ipgu</strong> CGV</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('Lotte Cinema', 'Kondae ipgu', '15', '01', 'NAVER', '2', '2021-02-24')"><strong>Kondae
+                                ipgu</strong> Lotte Cinema</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('KU Cinematheque', 'Kondae ipgu', '396', '01', 'NAVER', '10', '2021-02-24')"><strong>Kondae
+                                ipgu</strong> KU Cinematheque</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('Lotte Cinema', 'Lafesta', '59', '02', 'NAVER', '2', '2021-02-24')"><strong>Lafesta</strong>
+                              Lotte Cinema</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('Megabox', 'Magok', '670', '01', 'NAVER', '3', '2021-02-24')"><strong>Magok</strong>
+                              Megabox</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('CGV', 'MaSan', '0033', '05', 'CGV', '1', '2021-02-24')"><strong>MaSan</strong>
+                              CGV</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('Megabox', 'MaSan', '689', '05', 'NAVER', '3', '2021-02-24')"><strong>MaSan</strong>
+                              Megabox</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('Lotte Cinema', 'Masan terminal', '138', '05', 'NAVER', '2', '2021-02-24')"><strong>Masan
+                                terminal</strong> Lotte Cinema</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('Lotte Cinema', 'Maseok', '472', '02', 'NAVER', '2', '2021-02-24')"><strong>Maseok</strong>
+                              Lotte Cinema</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('Lotte Cinema', 'MBCine (Jinju)', '722', '05', 'NAVER', '2', '2021-02-24')"><strong>MBCine
+                                (Jinju)</strong> Lotte Cinema</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('CGV', 'Mia', '0057', '01', 'CGV', '1', '2021-02-24')"><strong>Mia</strong>
+                              CGV</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('Megabox', 'Misa Gangbyeon', '700', '02', 'NAVER', '3', '2021-02-24')"><strong>Misa
+                                Gangbyeon</strong> Megabox</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('CGV', 'MokDong', '0011', '01', 'CGV', '1', '2021-02-24')"><strong>MokDong</strong>
+                              CGV</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('Megabox', 'MokDong', '250', '01', 'NAVER', '3', '2021-02-24')"><strong>MokDong</strong>
+                              Megabox</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('CGV', 'Mokpo', '0289', '04', 'CGV', '1', '2021-02-24')"><strong>Mokpo</strong>
+                              CGV</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('Megabox', 'Mokpo Hadang(Formo)', '596', '04', 'NAVER', '3', '2021-02-24')"><strong>Mokpo
+                                Hadang(Formo)</strong> Megabox</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('CGV', 'Mokpo Pyeonghwa Gwangjang', '0280', '04', 'CGV', '1', '2021-02-24')"><strong>Mokpo
+                                Pyeonghwa Gwangjang</strong> CGV</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('Megabox', 'Mun-gyeong', '576', '05', 'NAVER', '3', '2021-02-24')"><strong>Mun-gyeong</strong>
+                              Megabox</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('CGV', 'MyeongDong', '0009', '01', 'CGV', '1', '2021-02-24')"><strong>MyeongDong</strong>
+                              CGV</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('CGV', 'MyeongDong Station Cine Library', '0105', '01', 'CGV', '1', '2021-02-24')"><strong>MyeongDong
+                                Station Cine Library</strong> CGV</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('CGV', 'Naju', '0237', '04', 'CGV', '1', '2021-02-24')"><strong>Naju</strong>
+                              CGV</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('CGV', 'Nam Juan', '0198', '02', 'CGV', '1', '2021-02-24')"><strong>Nam
+                                Juan</strong> CGV</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('Megabox', 'Nam Pohang', '665', '05', 'NAVER', '3', '2021-02-24')"><strong>Nam
+                                Pohang</strong> Megabox</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('Megabox', 'NamChuncheon', '650', '06', 'NAVER', '3', '2021-02-24')"><strong>NamChuncheon</strong>
+                              Megabox</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('CGV', 'Nampo', '0065', '05', 'CGV', '1', '2021-02-24')"><strong>Nampo</strong>
+                              CGV</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('Lotte Cinema', 'Namwonju', '234', '06', 'NAVER', '2', '2021-02-24')"><strong>Namwonju</strong>
+                              Lotte Cinema</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('Megabox', 'Namyangju', '403', '02 ', 'NAVER', '3', '2021-02-24')"><strong>Namyangju</strong>
+                              Megabox</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('Megabox', 'Namyangju Hyundai Oulet Space One', '783', '02 ', 'NAVER', '3', '2021-02-24')"><strong>Namyangju
+                                Hyundai Oulet Space One</strong> Megabox</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('CGV', 'Nonsan', '0261', '03', 'CGV', '1', '2021-02-24')"><strong>Nonsan</strong>
+                              CGV</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('Megabox', 'Nonsan', '775', '03', 'NAVER', '3', '2021-02-24')"><strong>Nonsan</strong>
+                              Megabox</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('Lotte Cinema', 'Nowon', '19', '01', 'NAVER', '2', '2021-02-24')"><strong>Nowon</strong>
+                              Lotte Cinema</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('The Soop Art Cinema (The Forest Art Cinema)', 'Nowon', '633', '01', 'NAVER', '10', '2021-02-24')"><strong>Nowon</strong>
+                              The Soop Art Cinema (The Forest Art Cinema)</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('Lotte Cinema', 'O2', '544', '05', 'NAVER', '2', '2021-02-24')"><strong>O2</strong>
+                              Lotte Cinema</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('Megabox', 'Ochang', '681', '03', 'NAVER', '3', '2021-02-24')"><strong>Ochang</strong>
+                              Megabox</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('CGV', 'Ori', '0004', '02', 'CGV', '1', '2021-02-24')"><strong>Ori</strong>
+                              CGV</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('CGV', 'Osan', '0305', '02', 'CGV', '1', '2021-02-24')"><strong>Osan</strong>
+                              CGV</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('Lotte Cinema', 'Osan', '751', '02', 'NAVER', '2', '2021-02-24')"><strong>Osan</strong>
+                              Lotte Cinema</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('CGV', 'Osan Jung-ang', '0307', '02', 'CGV', '1', '2021-02-24')"><strong>Osan
+                                Jung-ang</strong> CGV</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('Megabox', 'Paju Chulpan Dosi', '114', '02', 'NAVER', '3', '2021-02-24')"><strong>Paju
+                                Chulpan Dosi</strong> Megabox</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('Megabox', 'Paju Geumchon', '540', '02', 'NAVER', '3', '2021-02-24')"><strong>Paju
+                                Geumchon</strong> Megabox</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('CGV', 'Paju Munsan', '0148', '02', 'CGV', '1', '2021-02-24')"><strong>Paju
+                                Munsan</strong> CGV</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('Lotte Cinema', 'Paju Oulet', '419', '02', 'NAVER', '2', '2021-02-24')"><strong>Paju
+                                Oulet</strong> Lotte Cinema</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('Lotte Cinema', 'Paju Unjeong', '637', '02', 'NAVER', '2', '2021-02-24')"><strong>Paju
+                                Unjeong</strong> Lotte Cinema</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('Megabox', 'Paju Unjeong', '640', '02', 'NAVER', '3', '2021-02-24')"><strong>Paju
+                                Unjeong</strong> Megabox</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('CGV', 'Paju Yadang', '0310', '02', 'CGV', '1', '2021-02-24')"><strong>Paju
+                                Yadang</strong> CGV</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('CGV', 'PanGyo', '0181', '02', 'CGV', '1', '2021-02-24')"><strong>PanGyo</strong>
+                              CGV</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('CGV', 'Piccadilly1958', '0223', '01', 'CGV', '1', '2021-02-24')"><strong>Piccadilly1958</strong>
+                              CGV</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('CGV', 'Pocheon', '0309', '02', 'CGV', '1', '2021-02-24')"><strong>Pocheon</strong>
+                              CGV</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('CGV', 'Pohang', '0045', '05', 'CGV', '1', '2021-02-24')"><strong>Pohang</strong>
+                              CGV</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('Lotte Cinema', 'Pohang', '365', '05', 'NAVER', '2', '2021-02-24')"><strong>Pohang</strong>
+                              Lotte Cinema</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('Lotte Cinema', 'Premium Andong', '731', '05', 'NAVER', '2', '2021-02-24')"><strong>Premium
+                                Andong</strong> Lotte Cinema</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('Lotte Cinema', 'Premium Chilgok', '182', '05', 'NAVER', '2', '2021-02-24')"><strong>Premium
+                                Chilgok</strong> Lotte Cinema</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('Lotte Cinema', 'Premium Gumi Central', '705', '05', 'NAVER', '2', '2021-02-24')"><strong>Premium
+                                Gumi Central</strong> Lotte Cinema</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('Lotte Cinema', 'Premium GyeongNamdae', '729', '05', 'NAVER', '2', '2021-02-24')"><strong>Premium
+                                GyeongNamdae</strong> Lotte Cinema</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('Lotte Cinema', 'Premium Haeundae (Jangsan Station)', '490', '05', 'NAVER', '2', '2021-02-24')"><strong>Premium
+                                Haeundae (Jangsan Station)</strong> Lotte Cinema</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('Lotte Cinema', 'Premium Jinju (JungAn)', '142', '05', 'NAVER', '2', '2021-02-24')"><strong>Premium
+                                Jinju (JungAn)</strong> Lotte Cinema</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('Lotte Cinema', 'Premium Man-gyeong', '694', '05', 'NAVER', '2', '2021-02-24')"><strong>Premium
+                                Man-gyeong</strong> Lotte Cinema</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('CGV', 'Pyeongchon', '0195', '02', 'CGV', '1', '2021-02-24')"><strong>Pyeongchon</strong>
+                              CGV</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('Lotte Cinema', 'Pyeongchon (Beomgye Station)', '435', '02', 'NAVER', '2', '2021-02-24')"><strong>Pyeongchon
+                                (Beomgye Station)</strong> Lotte Cinema</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('CGV', 'PyeongTaek', '0052', '02', 'CGV', '1', '2021-02-24')"><strong>PyeongTaek</strong>
+                              CGV</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('Megabox', 'PyeongTaek', '116', '02', 'NAVER', '3', '2021-02-24')"><strong>PyeongTaek</strong>
+                              Megabox</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('Lotte Cinema', 'Pyeongtaek Bijeon (New Core)', '730', '02', 'NAVER', '2', '2021-02-24')"><strong>Pyeongtaek
+                                Bijeon (New Core)</strong> Lotte Cinema</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('CGV', 'Pyeongtaek Sosa', '0214', '02', 'CGV', '1', '2021-02-24')"><strong>Pyeongtaek
+                                Sosa</strong> CGV</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('Lotte Cinema', 'Sacheon', '776', '05', 'NAVER', '2', '2021-02-24')"><strong>Sacheon</strong>
+                              Lotte Cinema</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('Megabox', 'Samcheonpo', '664', '05', 'NAVER', '3', '2021-02-24')"><strong>Samcheonpo</strong>
+                              Megabox</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('Megabox', 'Samsung COEX', '243', '01', 'NAVER', '3', '2021-02-24')"><strong>Samsung
+                                COEX</strong> Megabox</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('CGV', 'Sanbon', '0242', '02', 'CGV', '1', '2021-02-24')"><strong>Sanbon</strong>
+                              CGV</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('Lotte Cinema', 'Sanbon Fitin', '604', '02', 'NAVER', '2', '2021-02-24')"><strong>Sanbon
+                                Fitin</strong> Lotte Cinema</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('Megabox', 'SangAm Worldcup Stadium', '703', '01', 'NAVER', '3', '2021-02-24')"><strong>SangAm
+                                Worldcup Stadium</strong> Megabox</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('CGV', 'Sangbong', '0046', '01', 'CGV', '1', '2021-02-24')"><strong>Sangbong</strong>
+                              CGV</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('Megabox', 'Sangbong', '378', '01', 'NAVER', '3', '2021-02-24')"><strong>Sangbong</strong>
+                              Megabox</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('Lotte Cinema', 'Sangin', '590', '05', 'NAVER', '2', '2021-02-24')"><strong>Sangin</strong>
+                              Lotte Cinema</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('Lotte Cinema', 'Sangju', '757', '05', 'NAVER', '2', '2021-02-24')"><strong>Sangju</strong>
+                              Lotte Cinema</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('Lotte Cinema', 'Sasang', '161', '05', 'NAVER', '2', '2021-02-24')"><strong>Sasang</strong>
+                              Lotte Cinema</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('CGV', 'Sejong', '0219', '03', 'CGV', '1', '2021-02-24')"><strong>Sejong</strong>
+                              CGV</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('Megabox', 'Sejong', '402', '03', 'NAVER', '3', '2021-02-24')"><strong>Sejong</strong>
+                              Megabox</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('Megabox', 'Sejong Cheongsa', '770', '03', 'NAVER', '3', '2021-02-24')"><strong>Sejong
+                                Cheongsa</strong> Megabox</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('Megabox', 'Sejong Naseong', '756', '03', 'NAVER', '3', '2021-02-24')"><strong>Sejong
+                                Naseong</strong> Megabox</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('CGV', 'Seo Jeonju', '0225', '04', 'CGV', '1', '2021-02-24')"><strong>Seo
+                                Jeonju</strong> CGV</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('Lotte Cinema', 'Seo Suwon', '736', '02', 'NAVER', '2', '2021-02-24')"><strong>Seo
+                                Suwon</strong> Lotte Cinema</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('Lotte Cinema', 'Seo-Cheongju (Outlet)', '448', '03', 'NAVER', '2', '2021-02-24')"><strong>Seo-Cheongju
+                                (Outlet)</strong> Lotte Cinema</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('Lotte Cinema', 'Seogwipo', '236', '07', 'NAVER', '2', '2021-02-24')"><strong>Seogwipo</strong>
+                              Lotte Cinema</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('CGV', 'SeoHyeon', '0196', '02', 'CGV', '1', '2021-02-24')"><strong>SeoHyeon</strong>
+                              CGV</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('CGV', 'SeoMyeon', '0005', '05', 'CGV', '1', '2021-02-24')"><strong>SeoMyeon</strong>
+                              CGV</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('Lotte Cinema', 'SeoMyeon (Jeonpo-dong)', '393', '05', 'NAVER', '2', '2021-02-24')"><strong>SeoMyeon
+                                (Jeonpo-dong)</strong> Lotte Cinema</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('CGV', 'SeoMyeon Samjung Tower', '0285', '05', 'CGV', '1', '2021-02-24')"><strong>SeoMyeon
+                                Samjung Tower</strong> CGV</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('Lotte Cinema', 'Seongnam Jung-ang (Sinheung Station)', '719', '02', 'NAVER', '2', '2021-02-24')"><strong>Seongnam
+                                Jung-ang (Sinheung Station)</strong> Lotte Cinema</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('CGV', 'Seongnam Moran', '0304', '02', 'CGV', '1', '2021-02-24')"><strong>Seongnam
+                                Moran</strong> CGV</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('Lotte Cinema', 'Seongnam Sinheung (Save Zone)', '81', '02', '리뉴얼중', '2', '2021-02-24')"><strong>Seongnam
+                                Sinheung (Save Zone)</strong> Lotte Cinema</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('Lotte Cinema', 'Seongseo', '180', '05', 'NAVER', '2', '2021-02-24')"><strong>Seongseo</strong>
+                              Lotte Cinema</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('Megabox', 'Seongsu', '748', '01', 'NAVER', '3', '2021-02-24')"><strong>Seongsu</strong>
+                              Megabox</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('CGV', 'Seosan', '0091', '03', 'CGV', '1', '2021-02-24')"><strong>Seosan</strong>
+                              CGV</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('Lotte Cinema', 'Seosan', '218', '03', 'NAVER', '2', '2021-02-24')"><strong>Seosan</strong>
+                              Lotte Cinema</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('Lotte Cinema', 'Seouldae ipgu', '454', '01', 'NAVER', '2', '2021-02-24')"><strong>Seouldae
+                                ipgu</strong> Lotte Cinema</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('CGV', 'SiHeung', '0073', '02', 'CGV', '1', '2021-02-24')"><strong>SiHeung</strong>
+                              CGV</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('Megabox', 'Siheung Baegot', '659', '02', 'NAVER', '3', '2021-02-24')"><strong>Siheung
+                                Baegot</strong> Megabox</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('Lotte Cinema', 'Sihwa', '92', '02', 'NAVER', '2', '2021-02-24')"><strong>Sihwa</strong>
+                              Lotte Cinema</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('Lotte Cinema', 'Sillim', '354', '01', 'NAVER', '2', '2021-02-24')"><strong>Sillim</strong>
+                              Lotte Cinema</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('Megabox', 'Sinchon', '252', '01', 'NAVER', '3', '2021-02-24')"><strong>Sinchon</strong>
+                              Megabox</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('Film Forum', 'Sinchon', '333', '01', 'NAVER', '10', '2021-02-24')"><strong>Sinchon</strong>
+                              Film Forum</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('CGV', 'Sinchon Artreon', '0150', '01', 'CGV', '1', '2021-02-24')"><strong>Sinchon
+                                Artreon</strong> CGV</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('Lotte Cinema', 'SinDoRim', '481', '01', 'NAVER', '2', '2021-02-24')"><strong>SinDoRim</strong>
+                              Lotte Cinema</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('Megabox', 'Sokcho', '357', '06', 'NAVER', '3', '2021-02-24')"><strong>Sokcho</strong>
+                              Megabox</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('Megabox', 'Songcheon', '211', '04', 'NAVER', '3', '2021-02-24')"><strong>Songcheon</strong>
+                              Megabox</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('Megabox', 'Songdo', '656', '02', 'NAVER', '3', '2021-02-24')"><strong>Songdo</strong>
+                              Megabox</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('CGV', 'Songdo Time Space', '0325', '02', 'CGV', '1', '2021-02-24')"><strong>Songdo
+                                Time Space</strong> CGV</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('CGV', 'SongPa', '0088', '01', 'CGV', '1', '2021-02-24')"><strong>SongPa</strong>
+                              CGV</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('Megabox', 'Songpa Park Habio', '636', '01', 'NAVER', '3', '2021-02-24')"><strong>Songpa
+                                Park Habio</strong> Megabox</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('Lotte Cinema', 'Songtan', '115', '02', 'NAVER', '2', '2021-02-24')"><strong>Songtan</strong>
+                              Lotte Cinema</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('CGV', 'Sopung', '0143', '02', 'CGV', '1', '2021-02-24')"><strong>Sopung</strong>
+                              CGV</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('CGV', 'Starfield City We-rae', '0274', '02', 'CGV', '1', '2021-02-24')"><strong>Starfield
+                                City We-rae</strong> CGV</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('Lotte Cinema', 'Suji', '742', '02', 'NAVER', '2', '2021-02-24')"><strong>Suji</strong>
+                              Lotte Cinema</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('CGV', 'SunCheon', '0114', '04', 'CGV', '1', '2021-02-24')"><strong>SunCheon</strong>
+                              CGV</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('Megabox', 'SunCheon', '406', '04', 'NAVER', '3', '2021-02-24')"><strong>SunCheon</strong>
+                              Megabox</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('CGV', 'Suncheon Sindae', '0268', '04', 'CGV', '1', '2021-02-24')"><strong>Suncheon
+                                Sindae</strong> CGV</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('CGV', 'Sungshin Women Univ.', '0083', '01', 'CGV', '1', '2021-02-24')"><strong>Sungshin
+                                Women Univ.</strong> CGV</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('Lotte Cinema', 'Suraksan', '586', '01', 'NAVER', '2', '2021-02-24')"><strong>Suraksan</strong>
+                              Lotte Cinema</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('Lotte Cinema', 'Suwan (Outlet)', '431', '04', 'NAVER', '2', '2021-02-24')"><strong>Suwan
+                                (Outlet)</strong> Lotte Cinema</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('CGV', 'Suwon', '0012', '02', 'CGV', '1', '2021-02-24')"><strong>Suwon</strong>
+                              CGV</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('Lotte Cinema', 'Suwon', '536', '02', 'NAVER', '2', '2021-02-24')"><strong>Suwon</strong>
+                              Lotte Cinema</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('Megabox', 'Suwon', '245', '02', 'NAVER', '3', '2021-02-24')"><strong>Suwon</strong>
+                              Megabox</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('Megabox', 'Suwon NamMun', '486', '02', 'NAVER', '3', '2021-02-24')"><strong>Suwon
+                                NamMun</strong> Megabox</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('CGV', 'Suyu', '0276', '01', 'CGV', '1', '2021-02-24')"><strong>Suyu</strong>
+                              CGV</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('Lotte Cinema', 'Suyu', '655', '01', 'NAVER', '2', '2021-02-24')"><strong>Suyu</strong>
+                              Lotte Cinema</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('CGV', 'Tongyeong', '0156', '05', 'CGV', '1', '2021-02-24')"><strong>Tongyeong</strong>
+                              CGV</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('Lotte Cinema', 'Tongyeong', '381', '05', 'NAVER', '2', '2021-02-24')"><strong>Tongyeong</strong>
+                              Lotte Cinema</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('CGV', 'Uijeongbu', '0113', '02', 'CGV', '1', '2021-02-24')"><strong>Uijeongbu</strong>
+                              CGV</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('Lotte Cinema', 'Uijeongbu Milak', '615', '02', 'NAVER', '2', '2021-02-24')"><strong>Uijeongbu
+                                Milak</strong> Lotte Cinema</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('Megabox', 'Uijeongbu Milak', '609', '02', 'NAVER', '3', '2021-02-24')"><strong>Uijeongbu
+                                Milak</strong> Megabox</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('CGV', 'Uijeongbu Taeheung', '0187', '02', 'CGV', '1', '2021-02-24')"><strong>Uijeongbu
+                                Taeheung</strong> CGV</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('Megabox', 'Ulsan', '249', '05', 'NAVER', '3', '2021-02-24')"><strong>Ulsan</strong>
+                              Megabox</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('Lotte Cinema', 'Ulsan (Department Store)', '241', '05', 'NAVER', '2', '2021-02-24')"><strong>Ulsan
+                                (Department Store)</strong> Lotte Cinema</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('CGV', 'Ulsan Jinjang', '0246', '05', 'CGV', '1', '2021-02-24')"><strong>Ulsan
+                                Jinjang</strong> CGV</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('CGV', 'Ulsan Samsan', '0128', '05', 'CGV', '1', '2021-02-24')"><strong>Ulsan
+                                Samsan</strong> CGV</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('Lotte Cinema', 'Ulsan Seongnam', '499', '05', 'NAVER', '2', '2021-02-24')"><strong>Ulsan
+                                Seongnam</strong> Lotte Cinema</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('CGV', 'Ulsan Sincheon', '0264', '05', 'CGV', '1', '2021-02-24')"><strong>Ulsan
+                                Sincheon</strong> CGV</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('CGV', 'WangSimNi', '0074', '01', 'CGV', '1', '2021-02-24')"><strong>WangSimNi</strong>
+                              CGV</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('Lotte Cinema', 'We-rae', '668', '02', 'NAVER', '2', '2021-02-24')"><strong>We-rae</strong>
+                              Lotte Cinema</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('CGV', 'Wonju', '0144', '06', 'CGV', '1', '2021-02-24')"><strong>Wonju</strong>
+                              CGV</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('Megabox', 'Wonju', '307', '06', 'NAVER', '3', '2021-02-24')"><strong>Wonju</strong>
+                              Megabox</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('Megabox', 'Wonju Central', '622', '06', 'NAVER', '3', '2021-02-24')"><strong>Wonju
+                                Central</strong> Megabox</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('Lotte Cinema', 'Wonju Musil', '660', '06', 'NAVER', '2', '2021-02-24')"><strong>Wonju
+                                Musil</strong> Lotte Cinema</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('Lotte Cinema', 'World Tower', '531', '01', 'NAVER', '2', '2021-02-24')"><strong>World
+                                Tower</strong> Lotte Cinema</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('Megabox', 'Yangju', '421', '02', 'NAVER', '3', '2021-02-24')"><strong>Yangju</strong>
+                              Megabox</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('CGV', 'Yangju Okjeong', '0262', '02', 'CGV', '1', '2021-02-24')"><strong>Yangju
+                                Okjeong</strong> CGV</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('Lotte Cinema', 'YangjuGoeup', '437', '02', 'NAVER', '2', '2021-02-24')"><strong>YangjuGoeup</strong>
+                              Lotte Cinema</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('Megabox', 'Yangsan', '657', '05', 'NAVER', '3', '2021-02-24')"><strong>Yangsan</strong>
+                              Megabox</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('Megabox', 'Yangsan Lafiesta', '728', '05', 'NAVER', '3', '2021-02-24')"><strong>Yangsan
+                                Lafiesta</strong> Megabox</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('CGV', 'Yangsan Mulgeum', '0222', '05', 'CGV', '1', '2021-02-24')"><strong>Yangsan
+                                Mulgeum</strong> CGV</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('CGV', 'Yangsan Samho', '0234', '05', 'CGV', '1', '2021-02-24')"><strong>Yangsan
+                                Samho</strong> CGV</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('CGV', 'Yatap', '0003', '02', 'CGV', '1', '2021-02-24')"><strong>Yatap</strong>
+                              CGV</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('CGV', 'Yeokgok', '0029', '02', 'CGV', '1', '2021-02-24')"><strong>Yeokgok</strong>
+                              CGV</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('CGV', 'YeongDeungPo', '0059', '01', 'CGV', '1', '2021-02-24')"><strong>YeongDeungPo</strong>
+                              CGV</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('Lotte Cinema', 'YeongDeungPo', '33', '01', 'NAVER', '2', '2021-02-24')"><strong>YeongDeungPo</strong>
+                              Lotte Cinema</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('Megabox', 'Yeongjong', '712', '02', 'NAVER', '3', '2021-02-24')"><strong>Yeongjong</strong>
+                              Megabox</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('Lotte Cinema', 'Yeongjong Haneul Dosi', '737', '02', 'NAVER', '2', '2021-02-24')"><strong>Yeongjong
+                                Haneul Dosi</strong> Lotte Cinema</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('Lotte Cinema', 'Yeongju', '690', '05', 'NAVER', '2', '2021-02-24')"><strong>Yeongju</strong>
+                              Lotte Cinema</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('Megabox', 'Yeongtong', '321', '02', 'NAVER', '3', '2021-02-24')"><strong>Yeongtong</strong>
+                              Megabox</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('CGV', 'Yeonsu Station', '0247', '02', 'CGV', '1', '2021-02-24')"><strong>Yeonsu
+                                Station</strong> CGV</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('CGV', 'Yeosu Woongcheon', '0208', '04', 'CGV', '1', '2021-02-24')"><strong>Yeosu
+                                Woongcheon</strong> CGV</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('Megabox', 'Yeosu Woongcheon', '682', '04', 'NAVER', '3', '2021-02-24')"><strong>Yeosu
+                                Woongcheon</strong> Megabox</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('CGV', 'Yeouido', '0112', '01', 'CGV', '1', '2021-02-24')"><strong>Yeouido</strong>
+                              CGV</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('CGV', 'Yongin', '0271', '02', 'CGV', '1', '2021-02-24')"><strong>Yongin</strong>
+                              CGV</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('Lotte Cinema', 'Yongin Giheung', '710', '02', 'NAVER', '2', '2021-02-24')"><strong>Yongin
+                                Giheung</strong> Lotte Cinema</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('Megabox', 'Yongin Giheung', '763', '02', 'NAVER', '3', '2021-02-24')"><strong>Yongin
+                                Giheung</strong> Megabox</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('Megabox', 'Yongin Techno Valley', '720', '02', 'NAVER', '3', '2021-02-24')"><strong>Yongin
+                                Techno Valley</strong> Megabox</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('Lotte Cinema', 'Yongin Yeokbuk', '721', '02', 'NAVER', '2', '2021-02-24')"><strong>Yongin
+                                Yeokbuk</strong> Lotte Cinema</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('Lotte Cinema', 'YongSan', '477', '01', 'NAVER', '2', '2021-02-24')"><strong>YongSan</strong>
+                              Lotte Cinema</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('CGV', 'Yongsan ipark mall', '0013', '01', 'CGV', '1', '2021-02-24')"><strong>Yongsan
+                                ipark mall</strong> CGV</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('Lotte Cinema', 'Yulha', '385', '05', 'NAVER', '2', '2021-02-24')"><strong>Yulha</strong>
+                              Lotte Cinema</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('CGV', 'Yuseong Noeun', '0206', '03', 'CGV', '1', '2021-02-24')"><strong>Yuseong
+                                Noeun</strong> CGV</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="margin:0px; padding:3px;"><a
+                              href="javascript:sendTheater('CGV', 'Yuseong Oncheon', '0209', '03', 'CGV', '1', '2021-02-24')"><strong>Yuseong
+                                Oncheon</strong> CGV</a>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <p> </p>
+                    <form name="theaterInfo" method="post"><input type="hidden" name="code" value=""><input
+                        type="hidden" name="title" value=""><input type="hidden" name="brand" value=""><input
+                        type="hidden" name="theater" value=""><input type="hidden" name="theater_code" value=""><input
+                        type="hidden" name="area" value=""><input type="hidden" name="source" value=""><input
+                        type="hidden" name="group" value=""><input type="hidden" name="date" value=""><input
+                        type="hidden" name="dates" value=""><input type="hidden" name="user_id" value=""><input
+                        type="hidden" name="user_first_name" value=""><input type="hidden" name="user_last_name"
+                        value=""><input type="hidden" name="user_phone" value=""><input type="hidden" name="user_email"
+                        value=""><input type="hidden" name="user_column" value=""><input type="hidden" name="user_row"
+                        value=""><input type="hidden" name="user_cancel" value=""><input type="hidden" name="showTF"
+                        value=""><input type="hidden" name="mobile" value="PC"></form>
+                    <form name="mapInfo" method="post">
+                      <input type="hidden" name="address_ko" value=""><br>
+                    </form>
+                  </div>
+                  <footer class="post-footer clearfix">
+                  </footer>
+                </section><!-- .entry-content -->
+              </div><!-- .post-entry -->
+            </article>
+            <div class="code-block code-block-1" style="margin: 8px 0; clear: both;">
+              <script async="" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+              <!-- cine_showtimes_hor -->
+              <ins class="adsbygoogle" style="display:inline-block;width:728px;height:90px"
+                data-ad-client="ca-pub-9894067623510561" data-ad-slot="3115999537" data-adsbygoogle-status="done"><ins
+                  id="aswift_0_expand"
+                  style="display:inline-table;border:none;height:90px;margin:0;padding:0;position:relative;visibility:visible;width:728px;background-color:transparent;"><ins
+                    id="aswift_0_anchor"
+                    style="display:block;border:none;height:90px;margin:0;padding:0;position:relative;visibility:visible;width:728px;background-color:transparent;"></ins></ins></ins>
+              <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+              </script>
+            </div>
+          </div>
+
+
+        </div><!-- .column-content-wrapper -->
+
+
+
+      </div><!-- .container -->
+
+      <div id="czr-push-footer"></div>
+    </div><!-- #main-wrapper -->
+
+
+
+    <footer id="footer" class="footer__wrapper">
+      <div id="colophon" class="colophon ">
+        <div class="container">
+          <div class="colophon__row row flex-row justify-content-between">
+            <div class="col-12 col-sm-auto">
+              <div id="footer__credits" class="footer__credits">
+                <p class="czr-copyright">
+                  <span class="czr-copyright-text">©&nbsp;2021&nbsp;</span><a class="czr-copyright-link"
+                    href="http://cineinkorea.com/wp" title="Cine in Korea">Cine in Korea</a><span
+                    class="czr-rights-text">&nbsp;–&nbsp;All rights reserved</span>
+                </p>
+                <p class="czr-credits">
+                  <span class="czr-designer">
+                    <span class="czr-wp-powered"><span class="czr-wp-powered-text">Powered by&nbsp;</span><a
+                        class="czr-wp-powered-link fab fa-wordpress" title="Powered by WordPress"
+                        href="https://wordpress.org/" target="_blank" rel="noopener noreferrer"></a></span><span
+                      class="czr-designer-text">&nbsp;–&nbsp;Designed with the <a class="czr-designer-link"
+                        href="https://presscustomizr.com/customizr" title="Customizr theme">Customizr theme</a></span>
+                  </span>
+                </p>
+              </div>
+            </div>
+            <div class="col-12 col-sm-auto">
+              <div class="social-links">
+                <ul class="socials ">
+                  <li><a rel="nofollow noopener noreferrer" class="social-icon icon-facebook"
+                      title="Follow us on Facebook" aria-label="Follow us on Facebook"
+                      href="https://www.facebook.com/Cine-in-Korea-Movie-in-Korea-200099870000367" target="_blank"><i
+                        class="fab fa-facebook"></i></a></li>
+                  <li><a rel="nofollow noopener noreferrer" class="social-icon icon-instagram"
+                      title="Follow us on Instagram" aria-label="Follow us on Instagram"
+                      href="http://instagram.com/cineinkorea" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                  <li><a rel="nofollow noopener noreferrer" class="social-icon icon-mail" title="Contact us"
+                      aria-label="Contact us" href="http://cinein.cafe24.com/wp/?page_id=928" target="_blank"><i
+                        class="fas fa-envelope"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div><!-- end #tc-page-wrap -->
+
+  <button class="btn czr-btt czr-btta right"><i class="icn-up-small"></i></button>
+  <script type="text/javascript">
+
+    onload = function () {
+      var e = document.getElementById("refreshed");
+      if (e.value == "no") e.value = "yes";
+      else { e.value = "no"; location.reload(); }
+    }
+
+  </script>
+  <script>
+    var modal = document.getElementById('cfblb_modal');
+    if (modal) {
+      var span = document.getElementsByClassName("cfblb_close")[0];
+
+      span.onclick = function () {
+        modal.style.display = "none";
+      }
+
+      window.onclick = function (event) {
+        if (event.target == modal) {
+          modal.style.display = "none";
+        }
+      }
+    }		
+  </script>
+  <!-- Custom Facebook Feed JS -->
+  <script type="text/javascript">
+    var cfflinkhashtags = "true";
+  </script>
+  <div class="mtsnb mtsnb-shown mtsnb-top mtsnb-fixed" id="mtsnb-2577" data-mtsnb-id="2577"
+    style="background-color:#6088ff;color:#ffffff;">
+    <style type="text/css">
+      .mtsnb {
+        position: fixed;
+        -webkit-box-shadow: 0 3px 4px rgba(0, 0, 0, 0.05);
+        box-shadow: 0 3px 4px rgba(0, 0, 0, 0.05);
+      }
+
+      .mtsnb .mtsnb-container {
+        width: 1080px;
+        font-size: 15px;
+      }
+
+      .mtsnb a {
+        color: #f4a700;
+      }
+
+      .mtsnb .mtsnb-button {
+        background-color: #f4a700;
+      }
+    </style>
+    <div class="mtsnb-container-outer">
+      <div class="mtsnb-container mtsnb-clearfix">
+        <div class="mtsnb-button-type mtsnb-content"><span class="mtsnb-text">Corona policy : Please wear the mask.
+            Social distancing is applied on sitting</span><a href="" class="mtsnb-link"></a></div>
+      </div>
+    </div>
+  </div>
+  <!-- Instagram Feed JS -->
+  <script type="text/javascript">
+    var sbiajaxurl = "http://cinein.cafe24.com/wp/wp-admin/admin-ajax.php";
+  </script>
+  <script type="text/javascript">
+    /* <![CDATA[ */
+    var MegamenuWp = { "ajax_url": "http:\/\/cinein.cafe24.com\/wp\/wp-admin\/admin-ajax.php", "loading_icon": "<div class=\"mega-spinner\"><div class=\"uil-squares-css\" style=\"transform:scale(0.4);\"><div><div><\/div><\/div><div><div><\/div><\/div><div><div><\/div><\/div><div><div><\/div><\/div><div><div><\/div><\/div><div><div><\/div><\/div><div><div><\/div><\/div><div><div><\/div><\/div><\/div><\/div>", "theme_support": { "mobile_mod": 720, "disable_auto_css": 0, "disable_css": 0, "parent_level": 0, "content_right": 0, "content_left": 0, "margin_top": 0, "animation": "", "child_li": "", "ul_css": "", "li_css": "" }, "mega_parent_level": "0", "mega_content_left": "0", "mega_content_right": "0", "animation": "shift-up" };
+/* ]]> */
+  </script>
+  <script type="text/javascript"
+    src="http://cinein.cafe24.com/wp/wp-content/plugins/easymega/assets/js/megamenu-wp.js?ver=1.0.1"></script>
+  <script type="text/javascript"
+    src="http://cinein.cafe24.com/wp/wp-content/plugins/custom-facebook-feed/js/cff-scripts.js?ver=2.16.1"></script>
+  <script type="text/javascript"
+    src="http://cinein.cafe24.com/wp/wp-includes/js/comment-reply.min.js?ver=4.9.16"></script>
+  <script type="text/javascript"
+    src="http://cinein.cafe24.com/wp/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4"></script>
+  <script type="text/javascript" src="http://cinein.cafe24.com/wp/wp-includes/js/wp-embed.min.js?ver=4.9.16"></script>
+  <script>
+    $("span").hover(
+      function () {
+        $(this).addClass("mouseover");
+      });
+    $("span").mouseout(function () {
+      $(this).removeClass("mouseover");
+    });
+
+    $("p").click(function () {
+      $(this).toggleClass("clicked");
+    });
+  </script>
+
+
+  <ins class="adsbygoogle adsbygoogle-noablate" data-adsbygoogle-status="done" style="display: none !important;"><ins
+      id="aswift_1_expand"
+      style="display:inline-table;border:none;height:0px;margin:0;padding:0;position:relative;visibility:visible;width:0px;background-color:transparent;"
+      tabindex="0" title="Advertisement" aria-label="Advertisement"><ins id="aswift_1_anchor"
+        style="display:block;border:none;height:0px;margin:0;padding:0;position:relative;visibility:visible;width:0px;background-color:transparent;"><iframe
+          id="aswift_1" name="aswift_1"
+          style="left:0;position:absolute;top:0;border:0;width:undefinedpx;height:undefinedpx;"
+          sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation"
+          frameborder="0"
+          src="https://googleads.g.doubleclick.net/pagead/ads?guci=1.2.0.0.2.2.0.0&amp;client=ca-pub-9894067623510561&amp;output=html&amp;adk=1812271804&amp;adf=3025194257&amp;lmt=1614099436&amp;plat=1%3A8%2C2%3A8%2C9%3A32776%2C16%3A8388608%2C17%3A32%2C24%3A32%2C25%3A32%2C30%3A1048576%2C32%3A32&amp;format=0x0&amp;url=http%3A%2F%2Fcineinkorea.com%2Fwp%2F%3Fpage_id%3D195%26ckattempt%3D3&amp;ea=0&amp;flash=0&amp;pra=7&amp;wgl=1&amp;dt=1614099435766&amp;bpp=3&amp;bdt=4144&amp;idt=495&amp;shv=r20210217&amp;cbv=r20110914&amp;ptt=9&amp;saldr=aa&amp;abxe=1&amp;nras=1&amp;correlator=8475452179937&amp;frm=20&amp;pv=2&amp;ga_vid=1901482490.1614099436&amp;ga_sid=1614099436&amp;ga_hid=1590881894&amp;ga_fc=0&amp;u_tz=60&amp;u_his=3&amp;u_java=0&amp;u_h=600&amp;u_w=800&amp;u_ah=600&amp;u_aw=800&amp;u_cd=24&amp;u_nplug=0&amp;u_nmime=0&amp;adx=-12245933&amp;ady=-12245933&amp;biw=800&amp;bih=600&amp;scr_x=0&amp;scr_y=0&amp;eid=44736377%2C21068083%2C21068769%2C21068893%2C31060009%2C21066973&amp;oid=3&amp;pvsid=4152714611161382&amp;pem=709&amp;ref=http%3A%2F%2Fcineinkorea.com%2Fwp%2F%3Fpage_id%3D195%26ckattempt%3D3&amp;rx=0&amp;eae=2&amp;fc=896&amp;brdim=0%2C0%2C0%2C0%2C800%2C0%2C800%2C600%2C800%2C600&amp;vis=1&amp;rsz=%7C%7Cs%7C&amp;abl=NS&amp;fu=8192&amp;bc=23&amp;ifi=2&amp;uci=a!2&amp;fsb=1&amp;dtd=525"
+          marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no"
+          allowfullscreen="true" data-google-container-id="a!2"
+          data-load-complete="true"></iframe></ins></ins></ins><iframe id="google_osd_static_frame_4981820370220"
+    name="google_osd_static_frame" style="display: none; width: 0px; height: 0px;"></iframe>
+</body><iframe id="google_esf" name="google_esf"
+  src="https://googleads.g.doubleclick.net/pagead/html/r20210217/r20190131/zrt_lookup.html#"
+  data-ad-client="ca-pub-9894067623510561" style="display: none;"></iframe>
